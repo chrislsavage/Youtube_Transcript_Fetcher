@@ -20,6 +20,14 @@ class YouTubeTranscriptFetcher:
             r'<([^>]+)>:(.+)$'        # <Speaker>: Text
         ]
 
+    def _sanitize_filename(self, name: str) -> str:
+        """Convert a string into a valid filename/directory name."""
+        # Remove invalid chars
+        name = re.sub(r'[<>:"/\\|?*]', '', name)
+        # Replace spaces and multiple dashes with single dash
+        name = re.sub(r'[-\s]+', '-', name.strip())
+        return name
+
     def _extract_video_id(self, url: str) -> Optional[str]:
         """Extract video ID from various forms of YouTube URLs."""
         patterns = [
@@ -146,9 +154,9 @@ class YouTubeTranscriptFetcher:
             print(f"Error fetching transcript for {video_url}: {str(e)}")
             return None
 
-    def save_transcript_with_timestamps(self, video_url: str, output_dir: str = "transcripts") -> Optional[str]:
+    def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[str]:
         """
-        Save transcript with timestamps and metadata to a file.
+        Save transcript with timestamps and metadata to a file within channel-specific directory.
         Attempts to detect and preserve speaker labels if present.
         Returns the path to the saved file if successful, None otherwise.
         """
@@ -162,14 +170,18 @@ class YouTubeTranscriptFetcher:
 
         metadata = self._get_video_metadata(video_id, transcript)
         
-        # Create output directory if it doesn't exist
-        os.makedirs(output_dir, exist_ok=True)
+        # Create base directory if it doesn't exist
+        os.makedirs(base_dir, exist_ok=True)
+        
+        # Create channel-specific directory
+        channel_name = self._sanitize_filename(metadata['channel']['channel_name'])
+        channel_dir = os.path.join(base_dir, channel_name)
+        os.makedirs(channel_dir, exist_ok=True)
         
         # Create filename from video title (sanitized)
-        safe_title = re.sub(r'[^\w\s-]', '', metadata['title'])
-        safe_title = re.sub(r'[-\s]+', '-', safe_title).strip('-')
+        safe_title = self._sanitize_filename(metadata['title'])
         filename = f"{safe_title}_{video_id}.txt"
-        filepath = os.path.join(output_dir, filename)
+        filepath = os.path.join(channel_dir, filename)
 
         with open(filepath, 'w', encoding='utf-8') as f:
             # Write metadata header
@@ -193,8 +205,9 @@ class YouTubeTranscriptFetcher:
                     f.write(f"[{timestamp}] {text}\n")
 
         print(f"Transcript saved to: {filepath}")
-        # Also save metadata to a JSON file
-        metadata_file = os.path.join(output_dir, f"{safe_title}_{video_id}_metadata.json")
+        
+        # Also save metadata to a JSON file in the same channel directory
+        metadata_file = os.path.join(channel_dir, f"{safe_title}_{video_id}_metadata.json")
         with open(metadata_file, 'w', encoding='utf-8') as f:
             json.dump(metadata, f, indent=2)
         print(f"Metadata saved to: {metadata_file}")
