@@ -19,6 +19,67 @@ class YouTubeTranscriptFetcher:
             r'^\(([^\)]+)\):(.+)$',   # (Speaker): Text
             r'<([^>]+)>:(.+)$'        # <Speaker>: Text
         ]
+    def update_root_transcripts_json(self, transcript_path: str, metadata: dict, base_dir: str = "transcripts") -> None:
+        """
+        Update the JSON file that tracks transcripts in the root directory.
+        
+        Args:
+            transcript_path: Path to the transcript file
+            metadata: Video and channel metadata
+            base_dir: Base directory for transcripts
+        """
+        root_json_path = os.path.join(base_dir, "root_transcripts.json")
+        
+        try:
+            # Load existing root JSON if it exists
+            if os.path.exists(root_json_path):
+                with open(root_json_path, 'r', encoding='utf-8') as f:
+                    root_data = json.load(f)
+            else:
+                root_data = {
+                    'last_updated': '',
+                    'total_transcripts': 0,
+                    'channels': {}
+                }
+            
+            channel_name = metadata['channel']['channel_name']
+            
+            # Initialize channel if it doesn't exist
+            if channel_name not in root_data['channels']:
+                root_data['channels'][channel_name] = {
+                    'channel_id': metadata['channel']['channel_id'],
+                    'channel_url': metadata['channel']['channel_url'],
+                    'videos': []
+                }
+            
+            # Add video information
+            video_info = {
+                'title': metadata['title'],
+                'video_id': metadata['video_id'],
+                'url': metadata['url'],
+                'transcript_path': os.path.relpath(transcript_path, base_dir),
+                'date_added': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+            
+            # Check if video already exists (avoid duplicates)
+            video_ids = [v['video_id'] for v in root_data['channels'][channel_name]['videos']]
+            if video_info['video_id'] not in video_ids:
+                root_data['channels'][channel_name]['videos'].append(video_info)
+            
+            # Update metadata
+            root_data['last_updated'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            root_data['total_transcripts'] = sum(
+                len(channel_data['videos'])
+                for channel_data in root_data['channels'].values()
+            )
+            
+            # Save updated root JSON
+            with open(root_json_path, 'w', encoding='utf-8') as f:
+                json.dump(root_data, f, indent=2)
+                
+        except Exception as e:
+            print(f"Error updating root transcripts JSON: {e}")
+
 
     def update_master_json(self, transcript_path: str, metadata: dict, base_dir: str = "transcripts") -> None:
         """
@@ -95,6 +156,109 @@ class YouTubeTranscriptFetcher:
             
         except Exception as e:
             print(f"Error updating master JSON: {e}")
+
+    def update_root_folder_json(self, original_path: str, root_path: str, metadata: dict, channel_dir: str) -> None:
+        """
+        Update the JSON file tracking transcripts in the root account folder.
+        """
+        root_json_path = os.path.join(channel_dir, "root_transcripts.json")
+        
+        try:
+            # Load existing JSON if it exists
+            if os.path.exists(root_json_path):
+                with open(root_json_path, 'r', encoding='utf-8') as f:
+                    root_data = json.load(f)
+            else:
+                root_data = {
+                    'last_updated': '',
+                    'total_transcripts': 0,
+                    'videos': []
+                }
+            
+            # Add video information
+            video_info = {
+                'title': metadata['title'],
+                'video_id': metadata['video_id'],
+                'url': metadata['url'],
+                'original_path': original_path,
+                'root_path': root_path,
+                'date_added': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+            root_data['videos'].append(video_info)
+            
+            # Update metadata
+            root_data['last_updated'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            root_data['total_transcripts'] = len(root_data['videos'])
+            
+            # Save updated JSON
+            with open(root_json_path, 'w', encoding='utf-8') as f:
+                json.dump(root_data, f, indent=2)
+            
+        except Exception as e:
+            print(f"Error updating root folder JSON: {e}")
+
+    def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[tuple]:
+        """
+        Save transcript with timestamps to both playlist location and root directory.
+        Returns tuple of (filepath, metadata) if successful, None otherwise.
+        """
+        video_id = self._extract_video_id(video_url)
+        if not video_id:
+            return None
+
+        transcript = self.get_transcript(video_url)
+        if not transcript:
+            return None
+
+        metadata = self._get_video_metadata(video_id, transcript)
+        
+        # Create filename from video title (sanitized)
+        safe_title = self._sanitize_filename(metadata['title'])
+        filename = f"{safe_title}_{video_id}.txt"
+        
+        # Setup paths for both playlist and root locations
+        playlist_filepath = os.path.join(base_dir, filename)
+        root_dir = os.path.dirname(os.path.dirname(base_dir))  # Go up to main transcripts dir
+        root_filepath = os.path.join(root_dir, filename)
+
+        # Create directories if needed
+        os.makedirs(base_dir, exist_ok=True)
+        os.makedirs(root_dir, exist_ok=True)
+
+        # Create transcript content
+        transcript_content = f"Title: {metadata['title']}\n"
+        transcript_content += f"Video URL: {metadata['url']}\n"
+        transcript_content += f"Channel Name: {metadata['channel']['channel_name']}\n"
+        transcript_content += f"Channel URL: {metadata['channel']['channel_url']}\n"
+        transcript_content += f"Channel ID: {metadata['channel']['channel_id']}\n"
+        transcript_content += f"Has Speaker Labels: {metadata['has_speaker_labels']}\n"
+        transcript_content += f"Downloaded: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+        transcript_content += "\n" + "="*50 + "\n\n"
+
+        for entry in transcript:
+            timestamp = self._format_timestamp(entry['start'])
+            speaker, text = self._extract_speaker_and_text(entry['text'])
+            
+            if speaker:
+                transcript_content += f"[{timestamp}] {speaker}: {text}\n"
+            else:
+                transcript_content += f"[{timestamp}] {text}\n"
+
+        # Save to playlist location
+        with open(playlist_filepath, 'w', encoding='utf-8') as f:
+            f.write(transcript_content)
+        print(f"Transcript saved to playlist folder: {playlist_filepath}")
+
+        # Save to root location
+        with open(root_filepath, 'w', encoding='utf-8') as f:
+            f.write(transcript_content)
+        print(f"Transcript saved to root folder: {root_filepath}")
+
+        # Update tracking JSONs
+        self.update_master_json(playlist_filepath, metadata, base_dir=root_dir)
+        self.update_root_transcripts_json(root_filepath, metadata, base_dir=root_dir)
+        
+        return playlist_filepath, metadata
 
     def _sanitize_filename(self, name: str) -> str:
         """Convert a string into a valid filename/directory name."""
@@ -288,56 +452,6 @@ class YouTubeTranscriptFetcher:
         except Exception as e:
             print(f"Error fetching transcript for {video_url}: {str(e)}")
             return None
-
-    def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[tuple]:
-        """
-        Save transcript with timestamps to a file.
-        Returns tuple of (filepath, metadata) if successful, None otherwise.
-        """
-        video_id = self._extract_video_id(video_url)
-        if not video_id:
-            return None
-
-        transcript = self.get_transcript(video_url)
-        if not transcript:
-            return None
-
-        metadata = self._get_video_metadata(video_id, transcript)
-        
-        # Create filename from video title (sanitized)
-        safe_title = self._sanitize_filename(metadata['title'])
-        filename = f"{safe_title}_{video_id}.txt"
-        filepath = os.path.join(base_dir, filename)
-
-        os.makedirs(base_dir, exist_ok=True)
-
-        with open(filepath, 'w', encoding='utf-8') as f:
-            # Write metadata header
-            f.write(f"Title: {metadata['title']}\n")
-            f.write(f"Video URL: {metadata['url']}\n")
-            f.write(f"Channel Name: {metadata['channel']['channel_name']}\n")
-            f.write(f"Channel URL: {metadata['channel']['channel_url']}\n")
-            f.write(f"Channel ID: {metadata['channel']['channel_id']}\n")
-            f.write(f"Has Speaker Labels: {metadata['has_speaker_labels']}\n")
-            f.write(f"Downloaded: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write("\n" + "="*50 + "\n\n")
-
-            # Process transcript entries
-            for entry in transcript:
-                timestamp = self._format_timestamp(entry['start'])
-                speaker, text = self._extract_speaker_and_text(entry['text'])
-                
-                if speaker:
-                    f.write(f"[{timestamp}] {speaker}: {text}\n")
-                else:
-                    f.write(f"[{timestamp}] {text}\n")
-
-        print(f"Transcript saved to: {filepath}")
-        
-        # Update master JSON
-        self.update_master_json(filepath, metadata, base_dir=os.path.dirname(os.path.dirname(filepath)))
-        
-        return filepath, metadata
 
     def save_playlist_transcripts(self, playlist_url: str, base_dir: str = "transcripts") -> List[str]:
         """
