@@ -215,8 +215,7 @@ class YouTubeTranscriptFetcher:
 
     def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[str]:
         """
-        Save transcript with timestamps and metadata to a file within channel-specific directory.
-        Attempts to detect and preserve speaker labels if present.
+        Save transcript with timestamps to a file.
         Returns the path to the saved file if successful, None otherwise.
         """
         video_id = self._extract_video_id(video_url)
@@ -229,18 +228,12 @@ class YouTubeTranscriptFetcher:
 
         metadata = self._get_video_metadata(video_id, transcript)
         
-        # Create base directory if it doesn't exist
-        os.makedirs(base_dir, exist_ok=True)
-        
-        # Create channel-specific directory
-        channel_name = self._sanitize_filename(metadata['channel']['channel_name'])
-        channel_dir = os.path.join(base_dir, channel_name)
-        os.makedirs(channel_dir, exist_ok=True)
-        
         # Create filename from video title (sanitized)
         safe_title = self._sanitize_filename(metadata['title'])
         filename = f"{safe_title}_{video_id}.txt"
-        filepath = os.path.join(channel_dir, filename)
+        filepath = os.path.join(base_dir, filename)
+
+        os.makedirs(base_dir, exist_ok=True)
 
         with open(filepath, 'w', encoding='utf-8') as f:
             # Write metadata header
@@ -264,14 +257,7 @@ class YouTubeTranscriptFetcher:
                     f.write(f"[{timestamp}] {text}\n")
 
         print(f"Transcript saved to: {filepath}")
-        
-        # Also save metadata to a JSON file in the same channel directory
-        metadata_file = os.path.join(channel_dir, f"{safe_title}_{video_id}_metadata.json")
-        with open(metadata_file, 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, indent=2)
-        print(f"Metadata saved to: {metadata_file}")
-        
-        return filepath
+        return filepath, metadata  # Return both filepath and metadata for use in playlist processing
 
     def save_playlist_transcripts(self, playlist_url: str, base_dir: str = "transcripts") -> List[str]:
         """
