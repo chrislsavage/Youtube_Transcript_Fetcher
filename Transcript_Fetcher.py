@@ -20,6 +20,82 @@ class YouTubeTranscriptFetcher:
             r'<([^>]+)>:(.+)$'        # <Speaker>: Text
         ]
 
+    def update_master_json(self, transcript_path: str, metadata: dict, base_dir: str = "transcripts") -> None:
+        """
+        Update the master JSON file with information about a new transcript.
+        """
+        master_json_path = os.path.join(base_dir, "master_transcript_index.json")
+        
+        try:
+            # Load existing master JSON if it exists
+            if os.path.exists(master_json_path):
+                with open(master_json_path, 'r', encoding='utf-8') as f:
+                    master_data = json.load(f)
+            else:
+                master_data = {
+                    'last_updated': '',
+                    'total_transcripts': 0,
+                    'channels': {}
+                }
+            
+            channel_name = metadata['channel']['channel_name']
+            
+            # Get relative path from base_dir to transcript
+            rel_path = os.path.relpath(transcript_path, base_dir)
+            
+            # Initialize channel if it doesn't exist
+            if channel_name not in master_data['channels']:
+                master_data['channels'][channel_name] = {
+                    'channel_id': metadata['channel']['channel_id'],
+                    'channel_url': metadata['channel']['channel_url'],
+                    'playlists': {},
+                    'videos': []
+                }
+            
+            # Get playlist name from path if it exists
+            path_parts = rel_path.split(os.sep)
+            if len(path_parts) > 2:  # If in playlist subfolder
+                playlist_name = path_parts[1]
+                if playlist_name not in master_data['channels'][channel_name]['playlists']:
+                    master_data['channels'][channel_name]['playlists'][playlist_name] = {
+                        'videos': []
+                    }
+                
+                # Add video to playlist
+                video_info = {
+                    'title': metadata['title'],
+                    'video_id': metadata['video_id'],
+                    'url': metadata['url'],
+                    'transcript_path': rel_path,
+                    'date_added': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                }
+                master_data['channels'][channel_name]['playlists'][playlist_name]['videos'].append(video_info)
+            else:
+                # Add video to channel's direct videos list
+                video_info = {
+                    'title': metadata['title'],
+                    'video_id': metadata['video_id'],
+                    'url': metadata['url'],
+                    'transcript_path': rel_path,
+                    'date_added': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                }
+                master_data['channels'][channel_name]['videos'].append(video_info)
+            
+            # Update master data metadata
+            master_data['last_updated'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            master_data['total_transcripts'] = sum(
+                len(channel_data['videos']) +
+                sum(len(playlist['videos']) for playlist in channel_data['playlists'].values())
+                for channel_data in master_data['channels'].values()
+            )
+            
+            # Save updated master JSON
+            with open(master_json_path, 'w', encoding='utf-8') as f:
+                json.dump(master_data, f, indent=2)
+            
+        except Exception as e:
+            print(f"Error updating master JSON: {e}")
+
     def _sanitize_filename(self, name: str) -> str:
         """Convert a string into a valid filename/directory name."""
         # Remove invalid chars
@@ -213,10 +289,10 @@ class YouTubeTranscriptFetcher:
             print(f"Error fetching transcript for {video_url}: {str(e)}")
             return None
 
-    def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[str]:
+    def save_transcript_with_timestamps(self, video_url: str, base_dir: str = "transcripts") -> Optional[tuple]:
         """
         Save transcript with timestamps to a file.
-        Returns the path to the saved file if successful, None otherwise.
+        Returns tuple of (filepath, metadata) if successful, None otherwise.
         """
         video_id = self._extract_video_id(video_url)
         if not video_id:
@@ -257,7 +333,11 @@ class YouTubeTranscriptFetcher:
                     f.write(f"[{timestamp}] {text}\n")
 
         print(f"Transcript saved to: {filepath}")
-        return filepath, metadata  # Return both filepath and metadata for use in playlist processing
+        
+        # Update master JSON
+        self.update_master_json(filepath, metadata, base_dir=os.path.dirname(os.path.dirname(filepath)))
+        
+        return filepath, metadata
 
     def save_playlist_transcripts(self, playlist_url: str, base_dir: str = "transcripts") -> List[str]:
         """
@@ -287,31 +367,37 @@ class YouTubeTranscriptFetcher:
         playlist_dir = os.path.join(base_dir, channel_name, playlist_name)
         os.makedirs(playlist_dir, exist_ok=True)
 
-        # Save playlist metadata
+        # Initialize playlist metadata
         playlist_metadata = {
-            'playlist_id': playlist_id,
-            'title': playlist_info['title'],
-            'url': playlist_info['url'],
-            'channel': channel_info
+            'playlist_info': {
+                'playlist_id': playlist_id,
+                'title': playlist_info['title'],
+                'url': playlist_info['url'],
+                'channel': channel_info
+            },
+            'videos': []
         }
         
-        playlist_metadata_file = os.path.join(playlist_dir, 'playlist_metadata.json')
-        with open(playlist_metadata_file, 'w', encoding='utf-8') as f:
-            json.dump(playlist_metadata, f, indent=2)
-
         # Process each video in the playlist
         for video_id in self._get_playlist_videos(playlist_id):
             video_url = f"https://www.youtube.com/watch?v={video_id}"
             try:
-                filepath = self.save_transcript_with_timestamps(
+                result = self.save_transcript_with_timestamps(
                     video_url, 
-                    base_dir=playlist_dir  # Save in playlist directory
+                    base_dir=playlist_dir
                 )
-                if filepath:
+                if result:
+                    filepath, metadata = result
                     saved_files.append(filepath)
+                    playlist_metadata['videos'].append(metadata)
                     print(f"Processed video: {video_id}")
                 else:
                     print(f"Failed to process video: {video_id}")
+                
+                # Update playlist metadata file
+                metadata_file = os.path.join(playlist_dir, "playlist_metadata.json")
+                with open(metadata_file, 'w', encoding='utf-8') as f:
+                    json.dump(playlist_metadata, f, indent=2)
                 
                 # Respect rate limit
                 self._rate_limit_wait()
