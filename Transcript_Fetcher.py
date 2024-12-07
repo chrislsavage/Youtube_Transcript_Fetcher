@@ -1,13 +1,13 @@
 import sys
 from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api.formatters import TextFormatter
-import time
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Generator
 import re
 import json
 from datetime import datetime
 import os
 import requests
+import time
+from urllib.parse import parse_qs, urlparse
 
 class YouTubeTranscriptFetcher:
     def __init__(self, rate_limit_per_minute: int = 60):
@@ -39,6 +39,17 @@ class YouTubeTranscriptFetcher:
             match = re.search(pattern, url)
             if match:
                 return match.group(1)
+        return None
+
+    def _extract_playlist_id(self, url: str) -> Optional[str]:
+        """Extract playlist ID from YouTube URL."""
+        # Handle different playlist URL formats
+        parsed_url = urlparse(url)
+        
+        # Format: https://www.youtube.com/playlist?list=PLAYLIST_ID
+        if 'list' in parse_qs(parsed_url.query):
+            return parse_qs(parsed_url.query)['list'][0]
+            
         return None
 
     def _rate_limit_wait(self):
@@ -104,6 +115,54 @@ class YouTubeTranscriptFetcher:
             'channel_id': None,
             'channel_url': None
         }
+
+    def _get_playlist_info(self, playlist_id: str) -> Dict:
+        """Get playlist metadata using YouTube's oEmbed API."""
+        try:
+            # Get first video from playlist to get channel info
+            playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
+            response = requests.get(playlist_url)
+            
+            if response.status_code == 200:
+                # Extract playlist title from HTML (basic extraction)
+                title_match = re.search(r'<title>([^<]+)</title>', response.text)
+                playlist_title = title_match.group(1).replace('- YouTube', '').strip() if title_match else 'Unknown Playlist'
+                
+                return {
+                    'playlist_id': playlist_id,
+                    'title': playlist_title,
+                    'url': playlist_url
+                }
+        except Exception as e:
+            print(f"Error fetching playlist info: {e}")
+        
+        return {
+            'playlist_id': playlist_id,
+            'title': 'Unknown Playlist',
+            'url': f"https://www.youtube.com/playlist?list={playlist_id}"
+        }
+
+    def _get_playlist_videos(self, playlist_id: str) -> Generator[str, None, None]:
+        """
+        Get video IDs from a playlist using requests and basic HTML parsing.
+        This is a simple implementation - for production, consider using youtube-dl or an official API.
+        """
+        try:
+            playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
+            response = requests.get(playlist_url)
+            
+            if response.status_code == 200:
+                # Basic regex to find video IDs
+                video_ids = re.findall(r'watch\?v=([a-zA-Z0-9_-]{11})', response.text)
+                seen = set()
+                
+                for video_id in video_ids:
+                    if video_id not in seen:
+                        seen.add(video_id)
+                        yield video_id
+                        
+        except Exception as e:
+            print(f"Error fetching playlist videos: {e}")
 
     def _get_video_metadata(self, video_id: str, transcript: List[Dict]) -> Dict:
         """
@@ -214,18 +273,92 @@ class YouTubeTranscriptFetcher:
         
         return filepath
 
+    def save_playlist_transcripts(self, playlist_url: str, base_dir: str = "transcripts") -> List[str]:
+        """
+        Save transcripts for all videos in a playlist.
+        Returns list of saved file paths.
+        """
+        playlist_id = self._extract_playlist_id(playlist_url)
+        if not playlist_id:
+            print("Error: Could not extract playlist ID from URL")
+            return []
+
+        playlist_info = self._get_playlist_info(playlist_id)
+        saved_files = []
+        
+        # Get first video to determine channel info
+        first_video_id = next(self._get_playlist_videos(playlist_id), None)
+        if not first_video_id:
+            print("Error: Could not find any videos in playlist")
+            return []
+
+        # Get channel info from first video
+        channel_info = self._get_channel_info(first_video_id)
+        
+        # Create directory structure
+        channel_name = self._sanitize_filename(channel_info['channel_name'])
+        playlist_name = self._sanitize_filename(playlist_info['title'])
+        playlist_dir = os.path.join(base_dir, channel_name, playlist_name)
+        os.makedirs(playlist_dir, exist_ok=True)
+
+        # Save playlist metadata
+        playlist_metadata = {
+            'playlist_id': playlist_id,
+            'title': playlist_info['title'],
+            'url': playlist_info['url'],
+            'channel': channel_info
+        }
+        
+        playlist_metadata_file = os.path.join(playlist_dir, 'playlist_metadata.json')
+        with open(playlist_metadata_file, 'w', encoding='utf-8') as f:
+            json.dump(playlist_metadata, f, indent=2)
+
+        # Process each video in the playlist
+        for video_id in self._get_playlist_videos(playlist_id):
+            video_url = f"https://www.youtube.com/watch?v={video_id}"
+            try:
+                filepath = self.save_transcript_with_timestamps(
+                    video_url, 
+                    base_dir=playlist_dir  # Save in playlist directory
+                )
+                if filepath:
+                    saved_files.append(filepath)
+                    print(f"Processed video: {video_id}")
+                else:
+                    print(f"Failed to process video: {video_id}")
+                
+                # Respect rate limit
+                self._rate_limit_wait()
+                
+            except Exception as e:
+                print(f"Error processing video {video_id}: {e}")
+                continue
+
+        return saved_files
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python script.py <youtube_url>")
+        print("Supported URLs:")
+        print("  - Single video: https://www.youtube.com/watch?v=VIDEO_ID")
+        print("  - Playlist: https://www.youtube.com/playlist?list=PLAYLIST_ID")
         return
 
+    url = sys.argv[1]
     fetcher = YouTubeTranscriptFetcher(rate_limit_per_minute=30)
-    filepath = fetcher.save_transcript_with_timestamps(sys.argv[1])
-    
-    if filepath:
-        print("Transcript saved successfully!")
+
+    if 'playlist' in url:
+        saved_files = fetcher.save_playlist_transcripts(url)
+        if saved_files:
+            print(f"\nSuccessfully saved {len(saved_files)} transcripts!")
+        else:
+            print("\nNo transcripts were saved.")
     else:
-        print("Failed to save transcript.")
+        filepath = fetcher.save_transcript_with_timestamps(url)
+        if filepath:
+            print("Transcript saved successfully!")
+        else:
+            print("Failed to save transcript.")
 
 if __name__ == "__main__":
     main()
