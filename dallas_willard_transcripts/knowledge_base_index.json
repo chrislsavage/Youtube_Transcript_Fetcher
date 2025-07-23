@@ -1,0 +1,175 @@
+{
+  "last_updated": "2025-07-22 21:36:13",
+  "total_transcripts": 6,
+  "total_chunks": 263,
+  "series": {
+    "Dallas Willard - How to Live Well": [
+      {
+        "video_id": "s5nCN7J3zqM",
+        "title": "Dallas Willard - How to Live Well: Eternal Life Begins Now",
+        "filepath": "Dallas-Willard-How-to-Live-Well/Dallas-Willard-How-to-Live-Well-Eternal-Life-Begins-Now_s5nCN7J3zqM.txt",
+        "subjects": [
+          "philosophy",
+          "teaching",
+          "church"
+        ],
+        "duration_minutes": 90.14
+      }
+    ],
+    "Knowing Christ: Living in Christ's Presence": [
+      {
+        "video_id": "mDiVDwvXKvA",
+        "title": "John Ortberg - Who are the Experts on Life Transformation?",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/John-Ortberg-Who-are-the-Experts-on-Life-Transformation_mDiVDwvXKvA.txt",
+        "subjects": [
+          "philosophy",
+          "soul",
+          "church",
+          "spiritual_formation",
+          "teaching"
+        ],
+        "duration_minutes": 64.6
+      }
+    ],
+    "Divine Conspiracy Interviews": [
+      {
+        "video_id": "4ESkUDXjumM",
+        "title": "Dallas Willard - Divine Conspiracy Interview - PART 1",
+        "filepath": "Divine-Conspiracy-Interviews/Dallas-Willard-Divine-Conspiracy-Interview-PART-1_4ESkUDXjumM.txt",
+        "subjects": [
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 11.13
+      },
+      {
+        "video_id": "TTinLKOAc1E",
+        "title": "Dallas Willard - Divine Conspiracy Interviews - PART 2",
+        "filepath": "Divine-Conspiracy-Interviews/Dallas-Willard-Divine-Conspiracy-Interviews-PART-2_TTinLKOAc1E.txt",
+        "subjects": [
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 12.07
+      }
+    ],
+    "The Soul Series": [
+      {
+        "video_id": "kKi4d7j5024",
+        "title": "Dallas Willard - The Soul Series - Part 1 - An Introduction to Your Soul",
+        "filepath": "The-Soul-Series/Dallas-Willard-The-Soul-Series-Part-1-An-Introduction-to-Your-Soul_kKi4d7j5024.txt",
+        "subjects": [
+          "soul",
+          "prayer",
+          "teaching",
+          "church"
+        ],
+        "duration_minutes": 47.75
+      },
+      {
+        "video_id": "e4ATN5p2srg",
+        "title": "Dallas Willard - The Soul Series - Part 2 - The Sufficiency of God to Your Soul",
+        "filepath": "The-Soul-Series/Dallas-Willard-The-Soul-Series-Part-2-The-Sufficiency-of-God-to-Your-Soul_e4ATN5p2srg.txt",
+        "subjects": [
+          "soul",
+          "prayer",
+          "teaching",
+          "church"
+        ],
+        "duration_minutes": 48.78
+      }
+    ]
+  },
+  "subjects": {
+    "philosophy": [
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA"
+    ],
+    "teaching": [
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "church": [
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "soul": [
+      "mDiVDwvXKvA",
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "spiritual_formation": [
+      "mDiVDwvXKvA"
+    ],
+    "kingdom_of_god": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E"
+    ],
+    "prayer": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ]
+  },
+  "scripture_index": {
+    "February 21": [
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA"
+    ],
+    "PART 1": [
+      "4ESkUDXjumM"
+    ],
+    "in 2011": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E"
+    ],
+    "October 11": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E"
+    ],
+    "PART 2": [
+      "TTinLKOAc1E"
+    ],
+    "Part 1": [
+      "kKi4d7j5024"
+    ],
+    "a 3": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "of 1990": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "session 1": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "session 2": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "session 3": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ],
+    "Part 2": [
+      "e4ATN5p2srg"
+    ]
+  },
+  "teaching_types": {
+    "conference": [
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA"
+    ],
+    "interview": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E"
+    ],
+    "sermon": [
+      "kKi4d7j5024",
+      "e4ATN5p2srg"
+    ]
+  }
+}

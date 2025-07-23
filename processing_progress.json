@@ -1,0 +1,47 @@
+{
+  "completed_playlists": [
+    "Knowing Christ: Living in Christ's Presence",
+    "Divine Conspiracy Interviews",
+    "The Soul Series",
+    "Holy Living",
+    "Neighborhood Initiative",
+    "Willard-Hildebrand Colloquium 2023",
+    "The Meaning of Meaning",
+    "Pastor to Pastor Conversations",
+    "Small Group Study: Hearing God",
+    "Celebrating the 20th Anniversary of Renovation of the Heart",
+    "Knowledge of Christ in Today's World",
+    "From Forgiveness to Blessing",
+    "Living in the Divine Conversation and Character: Renovar\u00e9 Institute week #2 at St. Malo\u2019s Retreat Center",
+    "Beyond Belief",
+    "Renovar\u00e9 Institute Series",
+    "For Such a Time As This",
+    "Hearing God in Real Life",
+    "\"Hey Dallas!\" Answers to pertinent questions.",
+    "Solo Sermons",
+    "Authentic Leader Series"
+  ],
+  "completed_videos": [],
+  "failed_videos": [],
+  "current_playlist_index": 20,
+  "start_time": "2025-07-22T21:35:57.074496",
+  "stats": {
+    "total_processed": 6,
+    "total_failed": 189,
+    "series_created": [
+      "Dallas Willard - How to Live Well",
+      "Knowing Christ: Living in Christ's Presence",
+      "Divine Conspiracy Interviews",
+      "The Soul Series"
+    ],
+    "subjects_found": [
+      "philosophy",
+      "teaching",
+      "church",
+      "soul",
+      "spiritual_formation",
+      "kingdom_of_god",
+      "prayer"
+    ]
+  }
+}
