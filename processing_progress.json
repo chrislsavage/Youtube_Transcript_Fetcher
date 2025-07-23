@@ -19,20 +19,26 @@
     "Hearing God in Real Life",
     "\"Hey Dallas!\" Answers to pertinent questions.",
     "Solo Sermons",
-    "Authentic Leader Series"
+    "Authentic Leader Series",
+    "Kingdom Living",
+    "The Divine Conspiracy",
+    "Denver Seminary Spiritual Formation 611 - 17 Parts",
+    "Short Clips"
   ],
   "completed_videos": [],
   "failed_videos": [],
-  "current_playlist_index": 20,
+  "current_playlist_index": 24,
   "start_time": "2025-07-22T21:35:57.074496",
   "stats": {
-    "total_processed": 6,
-    "total_failed": 189,
+    "total_processed": 27,
+    "total_failed": 259,
     "series_created": [
       "Dallas Willard - How to Live Well",
       "Knowing Christ: Living in Christ's Presence",
       "Divine Conspiracy Interviews",
-      "The Soul Series"
+      "The Soul Series",
+      "Kingdom Living",
+      "The Divine Conspiracy"
     ],
     "subjects_found": [
       "philosophy",
@@ -41,7 +47,10 @@
       "soul",
       "spiritual_formation",
       "kingdom_of_god",
-      "prayer"
+      "prayer",
+      "righteousness",
+      "discipleship",
+      "spiritual_disciplines"
     ]
   }
 }

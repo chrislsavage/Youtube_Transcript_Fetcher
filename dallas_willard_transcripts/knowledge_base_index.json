@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-07-22 21:36:13",
-  "total_transcripts": 6,
-  "total_chunks": 263,
+  "last_updated": "2025-07-23 07:51:11",
+  "total_transcripts": 27,
+  "total_chunks": 1146,
   "series": {
     "Dallas Willard - How to Live Well": [
       {
@@ -76,6 +76,276 @@
         ],
         "duration_minutes": 48.78
       }
+    ],
+    "Kingdom Living": [
+      {
+        "video_id": "xlZ2Fv2BY-k",
+        "title": "Dallas Willard - Kingdom Living Session 1 - Walking in the Character and Power of God",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-1-Walking-in-the-Character-and-Power-of-God_xlZ2Fv2BY-k.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 65.93
+      },
+      {
+        "video_id": "NzkUwo_XHws",
+        "title": "Dallas Willard - Kingdom Living  Session 2 Part 1 - The Kingdom of God as the Basis of Death to Self",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-2-Part-1-The-Kingdom-of-God-as-the-Basis-of-Death-to-Self_NzkUwo_XHws.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 19.08
+      },
+      {
+        "video_id": "-YWDFbQY-ec",
+        "title": "Dallas Willard - Kingdom Living Session 2 Part 2 - The Kingdom of God as the Basis of Death to Self",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-2-Part-2-The-Kingdom-of-God-as-the-Basis-of-Death-to-Self_-YWDFbQY-ec.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 30.86
+      },
+      {
+        "video_id": "bnQRc9lDqMI",
+        "title": "Dallas Willard - Kingdom Living Session 2 Part 3 - The Kingdom of God as the Basis for Death to Self",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-2-Part-3-The-Kingdom-of-God-as-the-Basis-for-Death-to-Self_bnQRc9lDqMI.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 22.62
+      },
+      {
+        "video_id": "5Slbc0UNaQE",
+        "title": "Dallas Willard - Kingdom Living Session 3 Part 1 - How to Be in the World but Not of the World",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-3-Part-1-How-to-Be-in-the-World-but-Not-of-the-World_5Slbc0UNaQE.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 29.16
+      },
+      {
+        "video_id": "lTT21ELgECw",
+        "title": "Dallas Willard - Kingdom Living Session 3 Part 2 - How to Be in the World but Not of It",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-3-Part-2-How-to-Be-in-the-World-but-Not-of-It_lTT21ELgECw.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 37.39
+      },
+      {
+        "video_id": "70iJ-lLX9rU",
+        "title": "Dallas Willard - Kingdom Living Session 4 Part 1 - The New Kind of Human life and Its Community",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-4-Part-1-The-New-Kind-of-Human-life-and-Its-Community_70iJ-lLX9rU.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 22.48
+      },
+      {
+        "video_id": "mjlkeEKbiyk",
+        "title": "Dallas Willard - Kingdom Living Session 4 Part 2 - The New Kind of Human Life and Its Community",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-4-Part-2-The-New-Kind-of-Human-Life-and-Its-Community_mjlkeEKbiyk.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 21.65
+      },
+      {
+        "video_id": "Gxj_MpzQO1s",
+        "title": "Dallas Willard - Kingdom Living Session 4 Part 3 - The New Kind of Human Life and Its Community",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-4-Part-3-The-New-Kind-of-Human-Life-and-Its-Community_Gxj_MpzQO1s.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 17.18
+      },
+      {
+        "video_id": "Bb2xPXHEZ6I",
+        "title": "Dallas Willard - Kingdom Living Session 5 Part 1 - Learning Kingdom Love",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-5-Part-1-Learning-Kingdom-Love_Bb2xPXHEZ6I.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 26.26
+      },
+      {
+        "video_id": "ZKGfS6LRL_I",
+        "title": "Dallas Willard - Kingdom Living Session 5 Part 2 - Learning Kingdom Love",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-5-Part-2-Learning-Kingdom-Love_ZKGfS6LRL_I.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 28.47
+      },
+      {
+        "video_id": "v0Whdt5IiQs",
+        "title": "Dallas Willard - Kingdom Living Session 6 - The Word of the Kingdom as a Life Force",
+        "filepath": "Kingdom-Living/Dallas-Willard-Kingdom-Living-Session-6-The-Word-of-the-Kingdom-as-a-Life-Force_v0Whdt5IiQs.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 64.0
+      },
+      {
+        "video_id": "_iPbNi55-CQ",
+        "title": "School of Kingdom Living",
+        "filepath": "Kingdom-Living/School-of-Kingdom-Living__iPbNi55-CQ.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "church",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 2.26
+      }
+    ],
+    "The Divine Conspiracy": [
+      {
+        "video_id": "pXEuMxLzmWQ",
+        "title": "Divine Conspiracy 1 - Jesus and Culture",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-1-Jesus-and-Culture_pXEuMxLzmWQ.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 73.25
+      },
+      {
+        "video_id": "-E4izexq6JQ",
+        "title": "Divine Conspiracy 2 - What Is a Human Being?",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-2-What-Is-a-Human-Being_-E4izexq6JQ.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 79.92
+      },
+      {
+        "video_id": "osrX8Us9mPo",
+        "title": "Divine Conspiracy 3 - Ministry in the Kingdom of God",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-3-Ministry-in-the-Kingdom-of-God_osrX8Us9mPo.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 74.17
+      },
+      {
+        "video_id": "Xh6QmWEtoyE",
+        "title": "Divine Conspiracy 4 - Kingdom Gospel",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-4-Kingdom-Gospel_Xh6QmWEtoyE.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 113.29
+      },
+      {
+        "video_id": "DGRk7NR28S8",
+        "title": "Divine Conspiracy 5 - Salvation Confusion",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-5-Salvation-Confusion_DGRk7NR28S8.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 79.1
+      },
+      {
+        "video_id": "5OLbbceqUu8",
+        "title": "Divine Conspiracy 6 - Kingdom Salvation",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-6-Kingdom-Salvation_5OLbbceqUu8.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 70.45
+      },
+      {
+        "video_id": "kNt0-naTqgk",
+        "title": "Divine Conspiracy 7 - The Beatitudes",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-7-The-Beatitudes_kNt0-naTqgk.txt",
+        "subjects": [
+          "discipleship",
+          "spiritual_disciplines",
+          "kingdom_of_god",
+          "soul"
+        ],
+        "duration_minutes": 60.26
+      },
+      {
+        "video_id": "734SUsQo47Q",
+        "title": "Divine Conspiracy 8 -  Transformation",
+        "filepath": "The-Divine-Conspiracy/Divine-Conspiracy-8-Transformation_734SUsQo47Q.txt",
+        "subjects": [
+          "spiritual_formation",
+          "spiritual_disciplines",
+          "discipleship",
+          "soul",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 38.58
+      }
     ]
   },
   "subjects": {
@@ -87,29 +357,133 @@
       "s5nCN7J3zqM",
       "mDiVDwvXKvA",
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
     ],
     "church": [
       "s5nCN7J3zqM",
       "mDiVDwvXKvA",
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
     ],
     "soul": [
       "mDiVDwvXKvA",
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ",
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
     ],
     "spiritual_formation": [
-      "mDiVDwvXKvA"
+      "mDiVDwvXKvA",
+      "734SUsQo47Q"
     ],
     "kingdom_of_god": [
       "4ESkUDXjumM",
-      "TTinLKOAc1E"
+      "TTinLKOAc1E",
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ",
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
     ],
     "prayer": [
       "kKi4d7j5024",
       "e4ATN5p2srg"
+    ],
+    "righteousness": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "discipleship": [
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
+    ],
+    "spiritual_disciplines": [
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
     ]
   },
   "scripture_index": {
@@ -132,7 +506,11 @@
       "TTinLKOAc1E"
     ],
     "Part 1": [
-      "kKi4d7j5024"
+      "kKi4d7j5024",
+      "NzkUwo_XHws",
+      "5Slbc0UNaQE",
+      "70iJ-lLX9rU",
+      "Bb2xPXHEZ6I"
     ],
     "a 3": [
       "kKi4d7j5024",
@@ -155,7 +533,198 @@
       "e4ATN5p2srg"
     ],
     "Part 2": [
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "-YWDFbQY-ec",
+      "lTT21ELgECw",
+      "mjlkeEKbiyk",
+      "ZKGfS6LRL_I"
+    ],
+    "Session 1": [
+      "xlZ2Fv2BY-k"
+    ],
+    "in 1999": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 1": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 2": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 3": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 4": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 5": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "SESSION 6": [
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ"
+    ],
+    "Session 2": [
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI"
+    ],
+    "Part 3": [
+      "bnQRc9lDqMI",
+      "Gxj_MpzQO1s"
+    ],
+    "Session 3": [
+      "5Slbc0UNaQE",
+      "lTT21ELgECw"
+    ],
+    "Session 4": [
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s"
+    ],
+    "Session 5": [
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I"
+    ],
+    "Session 6": [
+      "v0Whdt5IiQs"
+    ],
+    "Conspiracy 1": [
+      "pXEuMxLzmWQ"
+    ],
+    "in 1998": [
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
+    ],
+    "this 12": [
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
+    ],
+    "Fellows 2007": [
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
+    ],
+    "Conspiracy 2": [
+      "-E4izexq6JQ"
+    ],
+    "Conspiracy 3": [
+      "osrX8Us9mPo"
+    ],
+    "Conspiracy 4": [
+      "Xh6QmWEtoyE"
+    ],
+    "Conspiracy 5": [
+      "DGRk7NR28S8"
+    ],
+    "Conspiracy 6": [
+      "5OLbbceqUu8"
+    ],
+    "Conspiracy 7": [
+      "kNt0-naTqgk"
+    ],
+    "Conspiracy 8": [
+      "734SUsQo47Q"
     ]
   },
   "teaching_types": {
@@ -169,7 +738,28 @@
     ],
     "sermon": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "xlZ2Fv2BY-k",
+      "NzkUwo_XHws",
+      "-YWDFbQY-ec",
+      "bnQRc9lDqMI",
+      "5Slbc0UNaQE",
+      "lTT21ELgECw",
+      "70iJ-lLX9rU",
+      "mjlkeEKbiyk",
+      "Gxj_MpzQO1s",
+      "Bb2xPXHEZ6I",
+      "ZKGfS6LRL_I",
+      "v0Whdt5IiQs",
+      "_iPbNi55-CQ",
+      "pXEuMxLzmWQ",
+      "-E4izexq6JQ",
+      "osrX8Us9mPo",
+      "Xh6QmWEtoyE",
+      "DGRk7NR28S8",
+      "5OLbbceqUu8",
+      "kNt0-naTqgk",
+      "734SUsQo47Q"
     ]
   }
 }
