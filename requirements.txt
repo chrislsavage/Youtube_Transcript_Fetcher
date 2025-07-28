@@ -1,0 +1,9 @@
+youtube-transcript-api
+requests
+beautifulsoup4
+chromadb
+openai
+langchain
+langchain-openai
+langchain-chroma
+streamlit
