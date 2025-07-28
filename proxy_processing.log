@@ -1,0 +1,121 @@
+🔄 Initializing with rotating residential proxies...
+✅ Proxy configuration active
+🔄 PROXY BATCH PROCESSING: Starting with rotating residential proxies
+================================================================================
+📋 Total playlists: 28
+✅ Already completed: 14
+⏳ Remaining: 14
+Skipping already completed: Knowing Christ: Living in Christ's Presence
+Skipping already completed: Divine Conspiracy Interviews
+Skipping already completed: The Soul Series
+Skipping already completed: Holy Living
+Skipping already completed: Neighborhood Initiative
+Skipping already completed: Willard-Hildebrand Colloquium 2023
+Skipping already completed: The Meaning of Meaning
+Skipping already completed: Pastor to Pastor Conversations
+Skipping already completed: Small Group Study: Hearing God
+Skipping already completed: Celebrating the 20th Anniversary of Renovation of the Heart
+Skipping already completed: Knowledge of Christ in Today's World
+Skipping already completed: From Forgiveness to Blessing
+Skipping already completed: Living in the Divine Conversation and Character: Renovaré Institute week #2 at St. Malo’s Retreat Center
+Skipping already completed: Beyond Belief
+
+============================================================
+🔄 Processing with rotating proxies: Renovaré Institute Series
+============================================================
+⚠️ No videos found in playlist: Renovaré Institute Series
+💾 Progress saved: 15/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: For Such a Time As This
+============================================================
+⚠️ No videos found in playlist: For Such a Time As This
+💾 Progress saved: 16/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Hearing God in Real Life
+============================================================
+⚠️ No videos found in playlist: Hearing God in Real Life
+💾 Progress saved: 17/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: "Hey Dallas!" Answers to pertinent questions.
+============================================================
+⚠️ No videos found in playlist: "Hey Dallas!" Answers to pertinent questions.
+💾 Progress saved: 18/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Solo Sermons
+============================================================
+⚠️ No videos found in playlist: Solo Sermons
+💾 Progress saved: 19/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Authentic Leader Series
+============================================================
+⚠️ No videos found in playlist: Authentic Leader Series
+💾 Progress saved: 20/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Kingdom Living
+============================================================
+⚠️ No videos found in playlist: Kingdom Living
+💾 Progress saved: 21/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: The Divine Conspiracy
+============================================================
+⚠️ No videos found in playlist: The Divine Conspiracy
+💾 Progress saved: 22/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Denver Seminary Spiritual Formation 611 - 17 Parts
+============================================================
+⚠️ No videos found in playlist: Denver Seminary Spiritual Formation 611 - 17 Parts
+💾 Progress saved: 23/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Short Clips
+============================================================
+⚠️ No videos found in playlist: Short Clips
+💾 Progress saved: 24/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Philosophy and Apologetics
+============================================================
+⚠️ No videos found in playlist: Philosophy and Apologetics
+💾 Progress saved: 25/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Good Friday
+============================================================
+⚠️ No videos found in playlist: Good Friday
+💾 Progress saved: 26/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: The Disappearance of Moral Knowledge
+============================================================
+⚠️ No videos found in playlist: The Disappearance of Moral Knowledge
+💾 Progress saved: 27/28 playlists complete
+
+============================================================
+🔄 Processing with rotating proxies: Healing the Heart and Life by Walking with Jesus Daily
+============================================================
+⚠️ No videos found in playlist: Healing the Heart and Life by Walking with Jesus Daily
+💾 Progress saved: 28/28 playlists complete
+
+🎉 PROXY BATCH PROCESSING COMPLETE!
+📊 Final Results:
+   ✅ Total processed: 0
+   ❌ Total failed: 0
+Traceback (most recent call last):
+  File "/Users/savage/Library/CloudStorage/GoogleDrive-chris.savage@builderclarity.com/My Drive/Repos/Youtube Transcripts/proxy_batch_processor.py", line 199, in <module>
+    main()
+    ~~~~^^
+  File "/Users/savage/Library/CloudStorage/GoogleDrive-chris.savage@builderclarity.com/My Drive/Repos/Youtube Transcripts/proxy_batch_processor.py", line 194, in main
+    processor.resume_processing_with_proxies()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/savage/Library/CloudStorage/GoogleDrive-chris.savage@builderclarity.com/My Drive/Repos/Youtube Transcripts/proxy_batch_processor.py", line 174, in resume_processing_with_proxies
+    print(f"   📈 Overall success rate: {(total_processed/(total_processed+total_failed)*100):.1f}%")
+                                          ~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero

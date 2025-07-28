@@ -15,6 +15,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 import requests
 from urllib.parse import parse_qs, urlparse
+from bs4 import BeautifulSoup
 
 # Check if proxy support is available
 try:
@@ -49,10 +50,16 @@ class ProxyEnhancedTranscriptProcessor:
             self.api = YouTubeTranscriptApi(proxy_config=self.proxy_config)
             self.using_proxies = True
             print(f"✅ Proxy configuration active")
+            
+            # Setup requests session for playlist scraping 
+            self.session = requests.Session()
+            self.proxy_username = proxy_username
+            self.proxy_password = proxy_password
         else:
             print(f"📡 Using direct connection (no proxies)")
             self.api = YouTubeTranscriptApi()
             self.using_proxies = False
+            self.session = requests.Session()
         
         # Enhanced speaker patterns for Dallas Willard content
         self.speaker_patterns = [
@@ -188,6 +195,120 @@ class ProxyEnhancedTranscriptProcessor:
         
         return found_subjects
 
+    def scrape_playlist_videos(self, playlist_url: str) -> List[Dict[str, str]]:
+        """
+        Scrape video IDs and titles from a YouTube playlist page.
+        Uses the same proxy configuration as transcript fetching.
+        """
+        try:
+            print(f"🔍 Scraping playlist: {playlist_url}")
+            
+            # Add user agent to appear more like a real browser
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            }
+            
+            # Use rotating proxies if configured
+            if self.using_proxies and hasattr(self, 'proxy_username'):
+                # Use Webshare rotating proxy - correct endpoint
+                proxies = {
+                    'http': f'http://{self.proxy_username}-rotate:{self.proxy_password}@p.webshare.io:80',
+                    'https': f'http://{self.proxy_username}-rotate:{self.proxy_password}@p.webshare.io:80'
+                }
+                print(f"🔄 Using rotating proxy for playlist scraping (p.webshare.io)")
+                response = self.session.get(playlist_url, headers=headers, proxies=proxies, timeout=30)
+            else:
+                print(f"📡 Using direct connection for playlist scraping")
+                response = self.session.get(playlist_url, headers=headers, timeout=30)
+            
+            response.raise_for_status()
+            
+            # Parse HTML
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            videos = []
+            
+            # Look for ytInitialData in the response
+            if 'var ytInitialData' in response.text:
+                try:
+                    start_marker = 'var ytInitialData = '
+                    start_idx = response.text.find(start_marker)
+                    if start_idx != -1:
+                        start_idx += len(start_marker)
+                        end_idx = response.text.find(';</script>', start_idx)
+                        if end_idx == -1:
+                            end_idx = response.text.find('}};', start_idx) + 2
+                        
+                        json_str = response.text[start_idx:end_idx]
+                        data = json.loads(json_str)
+                        
+                        # Recursive function to find all video renderers
+                        def find_videos_recursive(obj):
+                            videos_found = []
+                            if isinstance(obj, dict):
+                                # Look for playlist video renderer
+                                if 'playlistVideoRenderer' in obj:
+                                    video_data = obj['playlistVideoRenderer']
+                                    video_id = video_data.get('videoId')
+                                    title_runs = video_data.get('title', {}).get('runs', [])
+                                    title = title_runs[0].get('text', 'Unknown') if title_runs else 'Unknown'
+                                    
+                                    if video_id:
+                                        videos_found.append({
+                                            'video_id': video_id,
+                                            'title': title
+                                        })
+                                        
+                                # Recursively search all dict values
+                                for value in obj.values():
+                                    videos_found.extend(find_videos_recursive(value))
+                                    
+                            elif isinstance(obj, list):
+                                # Recursively search all list items
+                                for item in obj:
+                                    videos_found.extend(find_videos_recursive(item))
+                            
+                            return videos_found
+                        
+                        videos = find_videos_recursive(data)
+                        
+                except json.JSONDecodeError as e:
+                    print(f"⚠️ Failed to parse YouTube data JSON: {e}")
+            
+            # Fallback: try to find video links in HTML if JSON parsing failed
+            if not videos:
+                print("🔄 Fallback: Searching for video links in HTML...")
+                
+                # Look for video links in the HTML
+                video_links = soup.find_all('a', href=True)
+                for link in video_links:
+                    href = link.get('href', '')
+                    if '/watch?v=' in href and '&list=' in href:
+                        video_id = self._extract_video_id('https://youtube.com' + href)
+                        title = link.get('title', 'Unknown Title')
+                        
+                        if video_id and not any(v['video_id'] == video_id for v in videos):
+                            videos.append({
+                                'video_id': video_id,
+                                'title': title
+                            })
+            
+            print(f"✅ Found {len(videos)} videos in playlist")
+            
+            # Show first few videos for verification
+            if videos:
+                print("🎥 Sample videos found:")
+                for i, video in enumerate(videos[:3]):
+                    print(f"   {i+1}. {video['title'][:50]}... ({video['video_id']})")
+                if len(videos) > 3:
+                    print(f"   ... and {len(videos) - 3} more")
+            
+            return videos
+            
+        except Exception as e:
+            print(f"❌ Error scraping playlist {playlist_url}: {str(e)}")
+            return []
+
     def _extract_video_id(self, url: str) -> Optional[str]:
         """Extract video ID from YouTube URL."""
         patterns = [
@@ -273,6 +394,7 @@ def main():
         print("  single <video_url>                    - Process single video")
         print("  test-proxy <username> <password>      - Test proxy configuration")
         print("  test-direct                           - Test direct connection")
+        print("  test-playlist <playlist_url> <username> <password> - Test playlist scraping")
         return
     
     command = sys.argv[1]
@@ -340,6 +462,26 @@ def main():
         print(f"🧪 Testing direct connection with test video...")
         result = processor.process_single_video(test_url)
         processor.print_session_stats()
+        
+    elif command == "test-playlist":
+        if len(sys.argv) < 5:
+            print("Usage: python proxy_enhanced_processor.py test-playlist <playlist_url> <username> <password>")
+            return
+        
+        playlist_url = sys.argv[2]
+        username = sys.argv[3]
+        password = sys.argv[4]
+        
+        processor = ProxyEnhancedTranscriptProcessor(
+            rate_limit_per_minute=10,
+            proxy_username=username,
+            proxy_password=password,
+            use_proxies=True
+        )
+        
+        print(f"🧪 Testing playlist scraping with: {playlist_url}")
+        videos = processor.scrape_playlist_videos(playlist_url)
+        print(f"✅ Found {len(videos)} videos")
     
     else:
         print(f"Unknown command: {command}")
