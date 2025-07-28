@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-07-23 07:51:11",
-  "total_transcripts": 27,
-  "total_chunks": 1146,
+  "last_updated": "2025-07-27 21:21:38",
+  "total_transcripts": 162,
+  "total_chunks": 5501,
   "series": {
     "Dallas Willard - How to Live Well": [
       {
@@ -11,6 +11,17 @@
         "subjects": [
           "philosophy",
           "teaching",
+          "church"
+        ],
+        "duration_minutes": 90.14
+      },
+      {
+        "video_id": "s5nCN7J3zqM",
+        "title": "Dallas Willard - How to Live Well: Eternal Life Begins Now",
+        "filepath": "Dallas-Willard-How-to-Live-Well/Dallas-Willard-How-to-Live-Well-Eternal-Life-Begins-Now_s5nCN7J3zqM.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
           "church"
         ],
         "duration_minutes": 90.14
@@ -29,9 +40,86 @@
           "teaching"
         ],
         "duration_minutes": 64.6
+      },
+      {
+        "video_id": "mDiVDwvXKvA",
+        "title": "John Ortberg - Who are the Experts on Life Transformation?",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/John-Ortberg-Who-are-the-Experts-on-Life-Transformation_mDiVDwvXKvA.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "philosophy",
+          "soul",
+          "teaching"
+        ],
+        "duration_minutes": 64.6
+      },
+      {
+        "video_id": "Pko9cMDSaNg",
+        "title": "Dallas Willard - How to Step into the Kingdom and Live There",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/Dallas-Willard-How-to-Step-into-the-Kingdom-and-Live-There_Pko9cMDSaNg.txt",
+        "subjects": [
+          "teaching",
+          "kingdom_of_god",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 73.04
+      },
+      {
+        "video_id": "MdV4rqzvQJM",
+        "title": "John Ortberg - Experiential Knowledge of the Trinity",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/John-Ortberg-Experiential-Knowledge-of-the-Trinity_MdV4rqzvQJM.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 46.95
+      },
+      {
+        "video_id": "4YfmfP_OuMs",
+        "title": "John Ortberg - The Importance of Christian Disciplines",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/John-Ortberg-The-Importance-of-Christian-Disciplines_4YfmfP_OuMs.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "spiritual_formation",
+          "church"
+        ],
+        "duration_minutes": 71.24
+      },
+      {
+        "video_id": "9uwQ8I4FwAs",
+        "title": "Dallas Willard - Blessing and Commitment",
+        "filepath": "Knowing-Christ-Living-in-Christ's-Presence/Dallas-Willard-Blessing-and-Commitment_9uwQ8I4FwAs.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 24.44
       }
     ],
     "Divine Conspiracy Interviews": [
+      {
+        "video_id": "4ESkUDXjumM",
+        "title": "Dallas Willard - Divine Conspiracy Interview - PART 1",
+        "filepath": "Divine-Conspiracy-Interviews/Dallas-Willard-Divine-Conspiracy-Interview-PART-1_4ESkUDXjumM.txt",
+        "subjects": [
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 11.13
+      },
+      {
+        "video_id": "TTinLKOAc1E",
+        "title": "Dallas Willard - Divine Conspiracy Interviews - PART 2",
+        "filepath": "Divine-Conspiracy-Interviews/Dallas-Willard-Divine-Conspiracy-Interviews-PART-2_TTinLKOAc1E.txt",
+        "subjects": [
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 12.07
+      },
       {
         "video_id": "4ESkUDXjumM",
         "title": "Dallas Willard - Divine Conspiracy Interview - PART 1",
@@ -72,6 +160,30 @@
           "soul",
           "prayer",
           "teaching",
+          "church"
+        ],
+        "duration_minutes": 48.78
+      },
+      {
+        "video_id": "kKi4d7j5024",
+        "title": "Dallas Willard - The Soul Series - Part 1 - An Introduction to Your Soul",
+        "filepath": "The-Soul-Series/Dallas-Willard-The-Soul-Series-Part-1-An-Introduction-to-Your-Soul_kKi4d7j5024.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "prayer",
+          "church"
+        ],
+        "duration_minutes": 47.75
+      },
+      {
+        "video_id": "e4ATN5p2srg",
+        "title": "Dallas Willard - The Soul Series - Part 2 - The Sufficiency of God to Your Soul",
+        "filepath": "The-Soul-Series/Dallas-Willard-The-Soul-Series-Part-2-The-Sufficiency-of-God-to-Your-Soul_e4ATN5p2srg.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "prayer",
           "church"
         ],
         "duration_minutes": 48.78
@@ -346,12 +458,1696 @@
         ],
         "duration_minutes": 38.58
       }
+    ],
+    "Philosophy and Apologetics": [
+      {
+        "video_id": "bRQMFgxn4LM",
+        "title": "Dallas Willard - What Skepticism is Good For",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-What-Skepticism-is-Good-For_bRQMFgxn4LM.txt",
+        "subjects": [
+          "philosophy",
+          "apologetics",
+          "teaching"
+        ],
+        "duration_minutes": 82.16
+      },
+      {
+        "video_id": "bRQMFgxn4LM",
+        "title": "Dallas Willard - What Skepticism is Good For",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-What-Skepticism-is-Good-For_bRQMFgxn4LM.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 82.16
+      },
+      {
+        "video_id": "1whW7rhOU_A",
+        "title": "Dallas Willard - The Nature and Necessity of Worldviews",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Nature-and-Necessity-of-Worldviews_1whW7rhOU_A.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 56.19
+      },
+      {
+        "video_id": "TmWBre4ylZA",
+        "title": "Dallas Willard - The Genius of Jesus, part 1",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Genius-of-Jesus,-part-1_TmWBre4ylZA.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 21.0
+      },
+      {
+        "video_id": "WUIIN6G2iAg",
+        "title": "Dallas Willard - The Genius of Jesus, part 2",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Genius-of-Jesus,-part-2_WUIIN6G2iAg.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 18.26
+      },
+      {
+        "video_id": "Ptno2-Ceo04",
+        "title": "Dallas Willard - What Does It Mean To Be Human? Part 1",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-What-Does-It-Mean-To-Be-Human-Part-1_Ptno2-Ceo04.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 28.52
+      },
+      {
+        "video_id": "jLICwWL2VzI",
+        "title": "Dallas Willard - What Does It Mean To Be Human? Part 2",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-What-Does-It-Mean-To-Be-Human-Part-2_jLICwWL2VzI.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 21.55
+      },
+      {
+        "video_id": "St4A8plRAqo",
+        "title": "Dallas Willard - Transformed by the Renewing of the Mind and Scripture",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-Transformed-by-the-Renewing-of-the-Mind-and-Scripture_St4A8plRAqo.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics",
+          "scripture"
+        ],
+        "duration_minutes": 92.05
+      },
+      {
+        "video_id": "vEayoalrcFU",
+        "title": "Disappearance of Moral Knowledge Part 1, Dallas Willard",
+        "filepath": "Philosophy-and-Apologetics/Disappearance-of-Moral-Knowledge-Part-1,-Dallas-Willard_vEayoalrcFU.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 45.63
+      },
+      {
+        "video_id": "8XUbBUYI598",
+        "title": "Disappearance of Moral Knowledge Part 2, Dallas Willard",
+        "filepath": "Philosophy-and-Apologetics/Disappearance-of-Moral-Knowledge-Part-2,-Dallas-Willard_8XUbBUYI598.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 50.08
+      },
+      {
+        "video_id": "Zk0KT3EB3Ms",
+        "title": "Dallas Willard - The Main Worldview Questions",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Main-Worldview-Questions_Zk0KT3EB3Ms.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 6.11
+      },
+      {
+        "video_id": "Q7emm9Py8os",
+        "title": "Dallas Willard - Why Science and Religion Must Conflict",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-Why-Science-and-Religion-Must-Conflict_Q7emm9Py8os.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 89.66
+      },
+      {
+        "video_id": "Gm3Bsj0y3OE",
+        "title": "Dallas Willard - Truth in Trouble",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-Truth-in-Trouble_Gm3Bsj0y3OE.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 5.57
+      },
+      {
+        "video_id": "4htTaAavvUg",
+        "title": "Dallas Willard - The Burden of Proof is Mine",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Burden-of-Proof-is-Mine_4htTaAavvUg.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 1.37
+      },
+      {
+        "video_id": "8iIOIaxgars",
+        "title": "Dallas Willard - The Meaning of Meaning - Part 1",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Meaning-of-Meaning-Part-1_8iIOIaxgars.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 6.95
+      },
+      {
+        "video_id": "RjbITXdyiNI",
+        "title": "Dallas Willard - The Meaning of Meaning - Part 2",
+        "filepath": "Philosophy-and-Apologetics/Dallas-Willard-The-Meaning-of-Meaning-Part-2_RjbITXdyiNI.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "apologetics"
+        ],
+        "duration_minutes": 4.67
+      }
+    ],
+    "Good Friday": [
+      {
+        "video_id": "QbQCogplGws",
+        "title": "Dallas Willard - What's Good About Good Friday?  Part 1",
+        "filepath": "Good-Friday/Dallas-Willard-What's-Good-About-Good-Friday-Part-1_QbQCogplGws.txt",
+        "subjects": [
+          "teaching"
+        ],
+        "duration_minutes": 9.55
+      },
+      {
+        "video_id": "Gryf6S4l4jc",
+        "title": "Dallas Willard - What's Good About Good Friday? Part 2",
+        "filepath": "Good-Friday/Dallas-Willard-What's-Good-About-Good-Friday-Part-2_Gryf6S4l4jc.txt",
+        "subjects": [
+          "teaching"
+        ],
+        "duration_minutes": 3.77
+      },
+      {
+        "video_id": "AWSJMM2M3ww",
+        "title": "Dallas Willard - What's Good About Good Friday? Part 3",
+        "filepath": "Good-Friday/Dallas-Willard-What's-Good-About-Good-Friday-Part-3_AWSJMM2M3ww.txt",
+        "subjects": [
+          "teaching"
+        ],
+        "duration_minutes": 7.92
+      }
+    ],
+    "The Disappearance of Moral Knowledge": [
+      {
+        "video_id": "vEayoalrcFU",
+        "title": "Disappearance of Moral Knowledge Part 1, Dallas Willard",
+        "filepath": "The-Disappearance-of-Moral-Knowledge/Disappearance-of-Moral-Knowledge-Part-1,-Dallas-Willard_vEayoalrcFU.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 45.63
+      },
+      {
+        "video_id": "8XUbBUYI598",
+        "title": "Disappearance of Moral Knowledge Part 2, Dallas Willard",
+        "filepath": "The-Disappearance-of-Moral-Knowledge/Disappearance-of-Moral-Knowledge-Part-2,-Dallas-Willard_8XUbBUYI598.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 50.08
+      }
+    ],
+    "Single Video Processing": [
+      {
+        "video_id": "5J6jAC6XxAI",
+        "title": "Why you should define your fears instead of your goals | Tim Ferriss | TED",
+        "filepath": "Single-Video-Processing/Why-you-should-define-your-fears-instead-of-your-goals-Tim-Ferriss-TED_5J6jAC6XxAI.txt",
+        "subjects": [],
+        "duration_minutes": 13.22
+      }
+    ],
+    "Dallas Willard - Understanding the Person": [
+      {
+        "video_id": "7FDuMr7T_5Y",
+        "title": "Dallas Willard - Understanding the Person: Including the Invisible Parts",
+        "filepath": "Dallas-Willard-Understanding-the-Person/Dallas-Willard-Understanding-the-Person-Including-the-Invisible-Parts_7FDuMr7T_5Y.txt",
+        "subjects": [
+          "teaching",
+          "philosophy",
+          "church"
+        ],
+        "duration_minutes": 56.13
+      }
+    ],
+    "Dallas Willard - The Soul Series - Part 3 - Prayer": [
+      {
+        "video_id": "Xh0JSoKveIY",
+        "title": "Dallas Willard - The Soul Series - Part 3 - Prayer: A Working Relationship with God",
+        "filepath": "Dallas-Willard-The-Soul-Series-Part-3-Prayer/Dallas-Willard-The-Soul-Series-Part-3-Prayer-A-Working-Relationship-with-God_Xh0JSoKveIY.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "prayer",
+          "church"
+        ],
+        "duration_minutes": 54.81
+      }
+    ],
+    "Holy Living": [
+      {
+        "video_id": "0vqG3xKjaO8",
+        "title": "Dallas Willard - Postmodern Holiness",
+        "filepath": "Holy-Living/Dallas-Willard-Postmodern-Holiness_0vqG3xKjaO8.txt",
+        "subjects": [
+          "righteousness"
+        ],
+        "duration_minutes": 84.56
+      },
+      {
+        "video_id": "0vqG3xKjaO8",
+        "title": "Dallas Willard - Postmodern Holiness",
+        "filepath": "Holy-Living/Dallas-Willard-Postmodern-Holiness_0vqG3xKjaO8.txt",
+        "subjects": [
+          "righteousness"
+        ],
+        "duration_minutes": 84.56
+      },
+      {
+        "video_id": "w4ln-6HXrQ8",
+        "title": "Dallas Willard- Holiness, Divine Presence & Divine Power - John 14",
+        "filepath": "Holy-Living/Dallas-Willard-Holiness,-Divine-Presence-&-Divine-Power-John-14_w4ln-6HXrQ8.txt",
+        "subjects": [
+          "righteousness"
+        ],
+        "duration_minutes": 91.04
+      }
+    ],
+    "Neighborhood Initiative": [
+      {
+        "video_id": "B6kN99yL1qg",
+        "title": "Dallas Willard - Love Your Neighbor Workshop",
+        "filepath": "Neighborhood-Initiative/Dallas-Willard-Love-Your-Neighbor-Workshop_B6kN99yL1qg.txt",
+        "subjects": [
+          "prayer",
+          "church"
+        ],
+        "duration_minutes": 49.07
+      },
+      {
+        "video_id": "Z2qFMTbDvxU",
+        "title": "Dallas Willard - A Heartfelt Word to Pastors and Leaders",
+        "filepath": "Neighborhood-Initiative/Dallas-Willard-A-Heartfelt-Word-to-Pastors-and-Leaders_Z2qFMTbDvxU.txt",
+        "subjects": [
+          "prayer",
+          "church",
+          "soul"
+        ],
+        "duration_minutes": 15.13
+      }
+    ],
+    "Willard-Hildebrand Colloquium 2023": [
+      {
+        "video_id": "33L8cl8IZEE",
+        "title": "James Beauregard - Corporeality, the Body, and Moral Knowledge",
+        "filepath": "Willard-Hildebrand-Colloquium-2023/James-Beauregard-Corporeality,-the-Body,-and-Moral-Knowledge_33L8cl8IZEE.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_disciplines",
+          "righteousness",
+          "philosophy"
+        ],
+        "duration_minutes": 48.78
+      },
+      {
+        "video_id": "TCckFTNt-7Y",
+        "title": "Steve Porter - The Effects of the Disappearance of Moral Knowledge on Virtue Acquisition",
+        "filepath": "Willard-Hildebrand-Colloquium-2023/Steve-Porter-The-Effects-of-the-Disappearance-of-Moral-Knowledge-on-Virtue-Acquisition_TCckFTNt-7Y.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_disciplines",
+          "righteousness",
+          "philosophy"
+        ],
+        "duration_minutes": 47.0
+      },
+      {
+        "video_id": "gGIvpzoO3c0",
+        "title": "Walter Hopp - Drifting Into Goodness",
+        "filepath": "Willard-Hildebrand-Colloquium-2023/Walter-Hopp-Drifting-Into-Goodness_gGIvpzoO3c0.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_disciplines",
+          "righteousness",
+          "philosophy"
+        ],
+        "duration_minutes": 44.6
+      },
+      {
+        "video_id": "__k2W6ek1Z4",
+        "title": "Dan Sheffler - Mediating Institutions and Hildebrandian Value Response",
+        "filepath": "Willard-Hildebrand-Colloquium-2023/Dan-Sheffler-Mediating-Institutions-and-Hildebrandian-Value-Response___k2W6ek1Z4.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_disciplines",
+          "righteousness",
+          "philosophy"
+        ],
+        "duration_minutes": 57.77
+      }
+    ],
+    "Paul Nedelisky - The Engines of the Zeitgeist": [
+      {
+        "video_id": "vd1OO0wXb4Y",
+        "title": "Paul Nedelisky - The Engines of the Zeitgeist: How the Old Moral Knowledge Has Been Replaced",
+        "filepath": "Paul-Nedelisky-The-Engines-of-the-Zeitgeist/Paul-Nedelisky-The-Engines-of-the-Zeitgeist-How-the-Old-Moral-Knowledge-Has-Been-Replaced_vd1OO0wXb4Y.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_disciplines",
+          "righteousness",
+          "philosophy"
+        ],
+        "duration_minutes": 45.0
+      }
+    ],
+    "The Meaning of Meaning": [
+      {
+        "video_id": "8iIOIaxgars",
+        "title": "Dallas Willard - The Meaning of Meaning - Part 1",
+        "filepath": "The-Meaning-of-Meaning/Dallas-Willard-The-Meaning-of-Meaning-Part-1_8iIOIaxgars.txt",
+        "subjects": [],
+        "duration_minutes": 6.95
+      },
+      {
+        "video_id": "RjbITXdyiNI",
+        "title": "Dallas Willard - The Meaning of Meaning - Part 2",
+        "filepath": "The-Meaning-of-Meaning/Dallas-Willard-The-Meaning-of-Meaning-Part-2_RjbITXdyiNI.txt",
+        "subjects": [],
+        "duration_minutes": 4.67
+      }
+    ],
+    "Dallas Willard - Pastor to Pastor": [
+      {
+        "video_id": "YcFIYaPXMKQ",
+        "title": "Dallas Willard - Pastor to Pastor: The Spiritually Vital Leader Part 1",
+        "filepath": "Dallas-Willard-Pastor-to-Pastor/Dallas-Willard-Pastor-to-Pastor-The-Spiritually-Vital-Leader-Part-1_YcFIYaPXMKQ.txt",
+        "subjects": [
+          "soul"
+        ],
+        "duration_minutes": 59.28
+      },
+      {
+        "video_id": "wDDozpR-u1s",
+        "title": "Dallas Willard - Pastor to Pastor: The Spiritually Vital Leader Part 2",
+        "filepath": "Dallas-Willard-Pastor-to-Pastor/Dallas-Willard-Pastor-to-Pastor-The-Spiritually-Vital-Leader-Part-2_wDDozpR-u1s.txt",
+        "subjects": [
+          "soul"
+        ],
+        "duration_minutes": 46.98
+      }
+    ],
+    "Dallas Willard - Small Group Curriculum": [
+      {
+        "video_id": "HxHWP1YgV6Y",
+        "title": "Dallas Willard - Small Group Curriculum: Session 5",
+        "filepath": "Dallas-Willard-Small-Group-Curriculum/Dallas-Willard-Small-Group-Curriculum-Session-5_HxHWP1YgV6Y.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 38.89
+      },
+      {
+        "video_id": "paeHgTUu894",
+        "title": "Dallas Willard - Small Group Curriculum: Session 6",
+        "filepath": "Dallas-Willard-Small-Group-Curriculum/Dallas-Willard-Small-Group-Curriculum-Session-6_paeHgTUu894.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 35.24
+      }
+    ],
+    "Small Group Study: Hearing God": [
+      {
+        "video_id": "_iPbNi55-CQ",
+        "title": "School of Kingdom Living",
+        "filepath": "Small-Group-Study-Hearing-God/School-of-Kingdom-Living__iPbNi55-CQ.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 2.26
+      }
+    ],
+    "Hearing God by Dallas Willard": [
+      {
+        "video_id": "uucUAQDsnbI",
+        "title": "Hearing God by Dallas Willard: A DVD Companion",
+        "filepath": "Hearing-God-by-Dallas-Willard/Hearing-God-by-Dallas-Willard-A-DVD-Companion_uucUAQDsnbI.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 1.5
+      }
+    ],
+    "Celebrating the 20th Anniversary of Renovation of the Heart": [
+      {
+        "video_id": "FThFNFYY0Sg",
+        "title": "Tyler Staton Reflects on the 20th Anniversary of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Tyler-Staton-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_FThFNFYY0Sg.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 1.61
+      },
+      {
+        "video_id": "W41VKZ4mbAg",
+        "title": "Juni Felix Reflects on the 20th Anniversary of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Juni-Felix-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_W41VKZ4mbAg.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 0.99
+      },
+      {
+        "video_id": "AZ3l7gcMyjA",
+        "title": "Randy Frazee Reflects on the 20th Anniversary of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Randy-Frazee-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_AZ3l7gcMyjA.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 2.48
+      },
+      {
+        "video_id": "-j-_zcBF8PY",
+        "title": "Amy Boucher Pye Reflects on the 20th Anniversary of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Amy-Boucher-Pye-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_-j-_zcBF8PY.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 1.22
+      },
+      {
+        "video_id": "hH_eyfrcqZU",
+        "title": "James Bryan Smith Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/James-Bryan-Smith-Celebrates-20-Years-of-Renovation-of-the-Heart_hH_eyfrcqZU.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 1.28
+      },
+      {
+        "video_id": "NKB95BagxZs",
+        "title": "Gary Moon Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Gary-Moon-Celebrates-20-Years-of-Renovation-of-the-Heart_NKB95BagxZs.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 2.19
+      },
+      {
+        "video_id": "_6Iv9V6Byew",
+        "title": "Siang Yang Tan Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Siang-Yang-Tan-Celebrates-20-Years-of-Renovation-of-the-Heart__6Iv9V6Byew.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 3.72
+      },
+      {
+        "video_id": "aMqesKzk1eQ",
+        "title": "John Ortberg Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/John-Ortberg-Celebrates-20-Years-of-Renovation-of-the-Heart_aMqesKzk1eQ.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 1.89
+      },
+      {
+        "video_id": "_zmxuTXKUMc",
+        "title": "Richard Foster Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Richard-Foster-Celebrates-20-Years-of-Renovation-of-the-Heart__zmxuTXKUMc.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 0.8
+      },
+      {
+        "video_id": "gd6yQ8KURUk",
+        "title": "Jan Johnson Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Jan-Johnson-Celebrates-20-Years-of-Renovation-of-the-Heart_gd6yQ8KURUk.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 2.32
+      },
+      {
+        "video_id": "DALzNSIUNK0",
+        "title": "Bob Fryling Reflects on the 20th Anniversary of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Bob-Fryling-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_DALzNSIUNK0.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 1.49
+      },
+      {
+        "video_id": "miOzrLitFyg",
+        "title": "Rebecca Heatley Celebrates 20 Years of Renovation of the Heart",
+        "filepath": "Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Rebecca-Heatley-Celebrates-20-Years-of-Renovation-of-the-Heart_miOzrLitFyg.txt",
+        "subjects": [
+          "church",
+          "spiritual_disciplines",
+          "spiritual_formation",
+          "soul",
+          "discipleship"
+        ],
+        "duration_minutes": 2.16
+      }
+    ],
+    "Knowledge of Christ in Today's World": [
+      {
+        "video_id": "N0Pn5Q6XFhA",
+        "title": "Dallas Willard - Knowledge of Christ 1 - How People Perish for Lack of Knowledge.",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-1-How-People-Perish-for-Lack-of-Knowledge._N0Pn5Q6XFhA.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 50.99
+      },
+      {
+        "video_id": "-QxhFtvWQ2k",
+        "title": "Dallas Willard - Knowledge of Christ 2 - Knowledge of God Today. How It Is Possible.",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-2-Knowledge-of-God-Today.-How-It-Is-Possible._-QxhFtvWQ2k.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 52.09
+      },
+      {
+        "video_id": "sHZoEc-umkQ",
+        "title": "Dallas Willard - Knowledge of Christ 3 - Understanding the Opposition to Knowledge of Christ Today",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-3-Understanding-the-Opposition-to-Knowledge-of-Christ-Today_sHZoEc-umkQ.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 55.12
+      },
+      {
+        "video_id": "pvRdktPxgTE",
+        "title": "Dallas Willard - Knowledge of Christ 4 - The Bible as Indispensable Source of Knowledge",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-4-The-Bible-as-Indispensable-Source-of-Knowledge_pvRdktPxgTE.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "scripture",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 48.81
+      },
+      {
+        "video_id": "H2jXGnzICtc",
+        "title": "Dallas Willard - Knowledge of Christ 5 - Reason in Human Life and Religion. The Redemption of Reason",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-5-Reason-in-Human-Life-and-Religion.-The-Redemption-of-Reason_H2jXGnzICtc.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 51.73
+      },
+      {
+        "video_id": "-6D8eH4TRhk",
+        "title": "Dallas Willard - Knowledge of Christ 6 - Moral Goodness and the Degradation of Morality by Desire",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-6-Moral-Goodness-and-the-Degradation-of-Morality-by-Desire_-6D8eH4TRhk.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 61.12
+      },
+      {
+        "video_id": "XiNhP91tkds",
+        "title": "Dallas Willard - Knowledge of Christ 8 - The Mission of Christ's People on Earth.  And Beyond.",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-8-The-Mission-of-Christ's-People-on-Earth.-And-Beyond._XiNhP91tkds.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 54.07
+      },
+      {
+        "video_id": "hc-zREkpxXo",
+        "title": "Dallas Willard - Knowledge of Christ - Q&A #1",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-Q&A-#1_hc-zREkpxXo.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 41.12
+      },
+      {
+        "video_id": "9Xf-gwPq8Sk",
+        "title": "Dallas Willard - Knowledge of Christ - Q&A #2",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-Q&A-#2_9Xf-gwPq8Sk.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 37.26
+      },
+      {
+        "video_id": "_iPbNi55-CQ",
+        "title": "School of Kingdom Living",
+        "filepath": "Knowledge-of-Christ-in-Today's-World/School-of-Kingdom-Living__iPbNi55-CQ.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "will_of_god",
+          "discipleship",
+          "teaching",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 2.26
+      }
+    ],
+    "Dallas Willard - Knowledge of Christ 7 - Life & Spiritual Life": [
+      {
+        "video_id": "Dxj0JoEBHcM",
+        "title": "Dallas Willard - Knowledge of Christ 7 - Life & Spiritual Life: The Spiritual & Non-Spiritual Person",
+        "filepath": "Dallas-Willard-Knowledge-of-Christ-7-Life-&-Spiritual-Life/Dallas-Willard-Knowledge-of-Christ-7-Life-&-Spiritual-Life-The-Spiritual-&-Non-Spiritual-Person_Dxj0JoEBHcM.txt",
+        "subjects": [
+          "church",
+          "philosophy",
+          "apologetics",
+          "soul",
+          "will_of_god",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 53.04
+      }
+    ],
+    "From Forgiveness to Blessing": [
+      {
+        "video_id": "4puKOVo5-zI",
+        "title": "Dallas Willard - Forgiveness to Blessing - 1A",
+        "filepath": "From-Forgiveness-to-Blessing/Dallas-Willard-Forgiveness-to-Blessing-1A_4puKOVo5-zI.txt",
+        "subjects": [
+          "teaching",
+          "church"
+        ],
+        "duration_minutes": 27.36
+      }
+    ],
+    "Dallas Willard - Hearing God #1": [
+      {
+        "video_id": "h9BEcpHM2gs",
+        "title": "Dallas Willard - Hearing God #1: Created for Intimate Friendship with God",
+        "filepath": "Dallas-Willard-Hearing-God-#1/Dallas-Willard-Hearing-God-#1-Created-for-Intimate-Friendship-with-God_h9BEcpHM2gs.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 36.74
+      }
+    ],
+    "Dallas Willard - Hearing God #2": [
+      {
+        "video_id": "sorFj5mHJgk",
+        "title": "Dallas Willard - Hearing God #2: What Hearing God Is Not",
+        "filepath": "Dallas-Willard-Hearing-God-#2/Dallas-Willard-Hearing-God-#2-What-Hearing-God-Is-Not_sorFj5mHJgk.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 50.16
+      }
+    ],
+    "Dallas Willard- Hearing God #3": [
+      {
+        "video_id": "SY0VNqAetMM",
+        "title": "Dallas Willard- Hearing God #3: Trinitarian Fellowship: The Word, The Spirit, and Life Together",
+        "filepath": "Dallas-Willard-Hearing-God-#3/Dallas-Willard-Hearing-God-#3-Trinitarian-Fellowship-The-Word,-The-Spirit,-and-Life-Together_SY0VNqAetMM.txt",
+        "subjects": [
+          "church",
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 37.18
+      }
+    ],
+    "Dallas Willard - Hearing God #4": [
+      {
+        "video_id": "nx2_wWWcii8",
+        "title": "Dallas Willard - Hearing God #4: The Still, Small Voice and its Rivals",
+        "filepath": "Dallas-Willard-Hearing-God-#4/Dallas-Willard-Hearing-God-#4-The-Still,-Small-Voice-and-its-Rivals_nx2_wWWcii8.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 43.08
+      }
+    ],
+    "Dallas Willard - Q&A with John Ortberg and Dallas": [
+      {
+        "video_id": "ZTED62PbvWc",
+        "title": "Dallas Willard - Q&A with John Ortberg and Dallas: Hearing God in the Context of the Kingdom of God",
+        "filepath": "Dallas-Willard-Q&A-with-John-Ortberg-and-Dallas/Dallas-Willard-Q&A-with-John-Ortberg-and-Dallas-Hearing-God-in-the-Context-of-the-Kingdom-of-God_ZTED62PbvWc.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 27.99
+      }
+    ],
+    "Dallas Willard - Q&A with Richard Foster & Dallas": [
+      {
+        "video_id": "sAjpA2B5HCo",
+        "title": "Dallas Willard - Q&A with Richard Foster & Dallas: Hearing God as a Life",
+        "filepath": "Dallas-Willard-Q&A-with-Richard-Foster-&-Dallas/Dallas-Willard-Q&A-with-Richard-Foster-&-Dallas-Hearing-God-as-a-Life_sAjpA2B5HCo.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 41.5
+      }
+    ],
+    "Dallas Willard - Tabletalk": [
+      {
+        "video_id": "n7sxp6ql8ZU",
+        "title": "Dallas Willard - Tabletalk: A Friend of God and Frank Laubach",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-A-Friend-of-God-and-Frank-Laubach_n7sxp6ql8ZU.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 8.21
+      },
+      {
+        "video_id": "oGEA0cpEdCc",
+        "title": "Dallas Willard - Tabletalk: What Does it NOT Mean to Hear God?",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-What-Does-it-NOT-Mean-to-Hear-God_oGEA0cpEdCc.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 8.67
+      },
+      {
+        "video_id": "2eDrAWXpPec",
+        "title": "Dallas Willard - Tabletalk: Fellowship with the Trinity",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-Fellowship-with-the-Trinity_2eDrAWXpPec.txt",
+        "subjects": [
+          "church",
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 8.27
+      },
+      {
+        "video_id": "KEbs8japGpE",
+        "title": "Dallas Willard - Tabletalk: Thomas Kelly and Being Distracted, Bored or at Peace",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-Thomas-Kelly-and-Being-Distracted,-Bored-or-at-Peace_KEbs8japGpE.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 7.86
+      },
+      {
+        "video_id": "3pxqNQGFrjA",
+        "title": "Dallas Willard - Tabletalk: Julian of Norwich and the Trinity",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-Julian-of-Norwich-and-the-Trinity_3pxqNQGFrjA.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 8.41
+      },
+      {
+        "video_id": "amY8_IyLP7U",
+        "title": "Dallas Willard - Tabletalk: George Fox and Hearing God as a Life",
+        "filepath": "Dallas-Willard-Tabletalk/Dallas-Willard-Tabletalk-George-Fox-and-Hearing-God-as-a-Life_amY8_IyLP7U.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 5.57
+      }
+    ],
+    "Living in the Divine Conversation and Character: Renovaré Institute week #2 at St. Malo’s Retreat Center": [
+      {
+        "video_id": "p7DXDyfozC0",
+        "title": "Dallas Willard - History and Meaning of the Disciplines - St. Malo's 2",
+        "filepath": "Living-in-the-Divine-Conversation-and-Character-Renovaré-Institute-week-#2-at-St.-Malo’s-Retreat-Center/Dallas-Willard-History-and-Meaning-of-the-Disciplines-St.-Malo's-2_p7DXDyfozC0.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god"
+        ],
+        "duration_minutes": 80.01
+      },
+      {
+        "video_id": "_iPbNi55-CQ",
+        "title": "School of Kingdom Living",
+        "filepath": "Living-in-the-Divine-Conversation-and-Character-Renovaré-Institute-week-#2-at-St.-Malo’s-Retreat-Center/School-of-Kingdom-Living__iPbNi55-CQ.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "teaching",
+          "hearing_god",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 2.26
+      }
+    ],
+    "Dallas Willard - Beyond Belief 1A": [
+      {
+        "video_id": "BJiplIsT_mQ",
+        "title": "Dallas Willard - Beyond Belief 1A: Who You Are",
+        "filepath": "Dallas-Willard-Beyond-Belief-1A/Dallas-Willard-Beyond-Belief-1A-Who-You-Are_BJiplIsT_mQ.txt",
+        "subjects": [
+          "church",
+          "scripture",
+          "spiritual_formation",
+          "prayer",
+          "soul",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 35.29
+      },
+      {
+        "video_id": "BJiplIsT_mQ",
+        "title": "Dallas Willard - Beyond Belief 1A: Who You Are",
+        "filepath": "Dallas-Willard-Beyond-Belief-1A/Dallas-Willard-Beyond-Belief-1A-Who-You-Are_BJiplIsT_mQ.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 35.29
+      }
+    ],
+    "Dallas Willard - Beyond Belief 1B": [
+      {
+        "video_id": "4ansiOQqcUk",
+        "title": "Dallas Willard - Beyond Belief 1B: Why You're Here and What's the Problem?",
+        "filepath": "Dallas-Willard-Beyond-Belief-1B/Dallas-Willard-Beyond-Belief-1B-Why-You're-Here-and-What's-the-Problem_4ansiOQqcUk.txt",
+        "subjects": [
+          "church",
+          "scripture",
+          "spiritual_formation",
+          "prayer",
+          "soul",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 45.31
+      },
+      {
+        "video_id": "4ansiOQqcUk",
+        "title": "Dallas Willard - Beyond Belief 1B: Why You're Here and What's the Problem?",
+        "filepath": "Dallas-Willard-Beyond-Belief-1B/Dallas-Willard-Beyond-Belief-1B-Why-You're-Here-and-What's-the-Problem_4ansiOQqcUk.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 45.31
+      }
+    ],
+    "Dallas Willard - Beyond Belief 2A": [
+      {
+        "video_id": "Qgpd1W6p8G4",
+        "title": "Dallas Willard - Beyond Belief 2A: Getting the Gospel Right",
+        "filepath": "Dallas-Willard-Beyond-Belief-2A/Dallas-Willard-Beyond-Belief-2A-Getting-the-Gospel-Right_Qgpd1W6p8G4.txt",
+        "subjects": [
+          "church",
+          "scripture",
+          "spiritual_formation",
+          "prayer",
+          "soul",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 19.19
+      },
+      {
+        "video_id": "Qgpd1W6p8G4",
+        "title": "Dallas Willard - Beyond Belief 2A: Getting the Gospel Right",
+        "filepath": "Dallas-Willard-Beyond-Belief-2A/Dallas-Willard-Beyond-Belief-2A-Getting-the-Gospel-Right_Qgpd1W6p8G4.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 19.19
+      }
+    ],
+    "Dallas Willard - Beyond Belief 2B": [
+      {
+        "video_id": "FPrRog4XyDA",
+        "title": "Dallas Willard - Beyond Belief 2B: Getting the Gospel Right",
+        "filepath": "Dallas-Willard-Beyond-Belief-2B/Dallas-Willard-Beyond-Belief-2B-Getting-the-Gospel-Right_FPrRog4XyDA.txt",
+        "subjects": [
+          "church",
+          "scripture",
+          "spiritual_formation",
+          "prayer",
+          "soul",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 45.27
+      },
+      {
+        "video_id": "FPrRog4XyDA",
+        "title": "Dallas Willard - Beyond Belief 2B: Getting the Gospel Right",
+        "filepath": "Dallas-Willard-Beyond-Belief-2B/Dallas-Willard-Beyond-Belief-2B-Getting-the-Gospel-Right_FPrRog4XyDA.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 45.27
+      }
+    ],
+    "Dallas Willard - Beyond Belief 3A": [
+      {
+        "video_id": "4C0idl8S8p0",
+        "title": "Dallas Willard - Beyond Belief 3A: Apprentices of Jesus",
+        "filepath": "Dallas-Willard-Beyond-Belief-3A/Dallas-Willard-Beyond-Belief-3A-Apprentices-of-Jesus_4C0idl8S8p0.txt",
+        "subjects": [
+          "church",
+          "scripture",
+          "spiritual_formation",
+          "prayer",
+          "soul",
+          "discipleship",
+          "teaching"
+        ],
+        "duration_minutes": 23.8
+      },
+      {
+        "video_id": "4C0idl8S8p0",
+        "title": "Dallas Willard - Beyond Belief 3A: Apprentices of Jesus",
+        "filepath": "Dallas-Willard-Beyond-Belief-3A/Dallas-Willard-Beyond-Belief-3A-Apprentices-of-Jesus_4C0idl8S8p0.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 23.8
+      }
+    ],
+    "Dallas Willard - Beyond Belief 3B": [
+      {
+        "video_id": "XoITOuYP8Mc",
+        "title": "Dallas Willard - Beyond Belief 3B: Who Is Really Well Off? The Beatitudes",
+        "filepath": "Dallas-Willard-Beyond-Belief-3B/Dallas-Willard-Beyond-Belief-3B-Who-Is-Really-Well-Off-The-Beatitudes_XoITOuYP8Mc.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 23.85
+      }
+    ],
+    "Dallas Willard - Beyond Belief 3C": [
+      {
+        "video_id": "5SfurBtaSPg",
+        "title": "Dallas Willard - Beyond Belief 3C: Who Is Truly A Good Person",
+        "filepath": "Dallas-Willard-Beyond-Belief-3C/Dallas-Willard-Beyond-Belief-3C-Who-Is-Truly-A-Good-Person_5SfurBtaSPg.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 40.17
+      }
+    ],
+    "Dallas Willard - Beyond Belief 4A": [
+      {
+        "video_id": "lRnEo2UexZk",
+        "title": "Dallas Willard - Beyond Belief 4A: What the Spiritual Disciplines Are",
+        "filepath": "Dallas-Willard-Beyond-Belief-4A/Dallas-Willard-Beyond-Belief-4A-What-the-Spiritual-Disciplines-Are_lRnEo2UexZk.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 28.19
+      }
+    ],
+    "Dallas Willard - Beyond Belief 4B": [
+      {
+        "video_id": "7wpLjPUruCg",
+        "title": "Dallas Willard - Beyond Belief 4B: What the Spiritual Disciplines Are, Continued & Concluded.",
+        "filepath": "Dallas-Willard-Beyond-Belief-4B/Dallas-Willard-Beyond-Belief-4B-What-the-Spiritual-Disciplines-Are,-Continued-&-Concluded._7wpLjPUruCg.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 20.83
+      }
+    ],
+    "Dallas Willard - Beyond Belief 5": [
+      {
+        "video_id": "yJbNEpHCpxA",
+        "title": "Dallas Willard - Beyond Belief 5: Spending One Day With Jesus",
+        "filepath": "Dallas-Willard-Beyond-Belief-5/Dallas-Willard-Beyond-Belief-5-Spending-One-Day-With-Jesus_yJbNEpHCpxA.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 25.72
+      }
+    ],
+    "Dallas Willard - Beyond Belief 6": [
+      {
+        "video_id": "haS7pTvCH2w",
+        "title": "Dallas Willard - Beyond Belief 6: Prayer ~ What It Is and How It Works",
+        "filepath": "Dallas-Willard-Beyond-Belief-6/Dallas-Willard-Beyond-Belief-6-Prayer-~-What-It-Is-and-How-It-Works_haS7pTvCH2w.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "discipleship"
+        ],
+        "duration_minutes": 52.83
+      }
+    ],
+    "Beyond Belief": [
+      {
+        "video_id": "_iPbNi55-CQ",
+        "title": "School of Kingdom Living",
+        "filepath": "Beyond-Belief/School-of-Kingdom-Living__iPbNi55-CQ.txt",
+        "subjects": [
+          "spiritual_formation",
+          "church",
+          "prayer",
+          "soul",
+          "scripture",
+          "teaching",
+          "kingdom_of_god",
+          "discipleship"
+        ],
+        "duration_minutes": 2.26
+      }
+    ],
+    "Renovaré Institute Series": [
+      {
+        "video_id": "NYT9fOD7MMI",
+        "title": "Dallas Willard- Renovaré 1 - Part 1 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-1-The-Theology-of-Spiritual-Formation_NYT9fOD7MMI.txt",
+        "subjects": [
+          "spiritual_formation",
+          "teaching",
+          "righteousness",
+          "soul"
+        ],
+        "duration_minutes": 25.49
+      },
+      {
+        "video_id": "NYT9fOD7MMI",
+        "title": "Dallas Willard- Renovaré 1 - Part 1 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-1-The-Theology-of-Spiritual-Formation_NYT9fOD7MMI.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 25.49
+      },
+      {
+        "video_id": "0oGAjV96ots",
+        "title": "Dallas Willard- Renovaré 1 - Part 2 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-2-The-Theology-of-Spiritual-Formation_0oGAjV96ots.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 32.49
+      },
+      {
+        "video_id": "Fva-2zC1ocM",
+        "title": "Dallas Willard- Renovaré 1 - Part 3 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-3-The-Theology-of-Spiritual-Formation_Fva-2zC1ocM.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 28.04
+      },
+      {
+        "video_id": "-cwaDDesss8",
+        "title": "Dallas Willard- Renovaré 2 - Part 1 - Why Am I Here? - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-1-Why-Am-I-Here-The-Four-Great-Questions-of-Life_-cwaDDesss8.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 30.38
+      },
+      {
+        "video_id": "hDfoxSFKLCQ",
+        "title": "Dallas Willard- Renovaré 2 - Part 2 - Why Am I Here - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-2-Why-Am-I-Here-The-Four-Great-Questions-of-Life_hDfoxSFKLCQ.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 30.68
+      },
+      {
+        "video_id": "nMbbPj3OpJs",
+        "title": "Dallas Willard- Renovaré 2 - Part 3 - Why Am I Here - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-3-Why-Am-I-Here-The-Four-Great-Questions-of-Life_nMbbPj3OpJs.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 29.27
+      },
+      {
+        "video_id": "WQd78__7aTU",
+        "title": "Dallas Willard- Renovaré 3 - Part 1 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-1-Steps-Forward-with-Grace_WQd78__7aTU.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 25.39
+      },
+      {
+        "video_id": "yReJc9o_EoU",
+        "title": "Dallas Willard- Renovaré 3 - Part 2 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-2-Steps-Forward-with-Grace_yReJc9o_EoU.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 26.47
+      },
+      {
+        "video_id": "1ooZKJ5-moA",
+        "title": "Dallas Willard- Renovaré 3 - Part 3 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-3-Steps-Forward-with-Grace_1ooZKJ5-moA.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 40.85
+      },
+      {
+        "video_id": "oKcvcYU4IL0",
+        "title": "Dallas Willard- Renovaré 4 - Part 1 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-1-What-Is-the-Kingdom-of-God_oKcvcYU4IL0.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 33.28
+      },
+      {
+        "video_id": "FnjVIfMEUQM",
+        "title": "Dallas Willard- Renovaré 4 - Part 2 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-2-What-Is-the-Kingdom-of-God_FnjVIfMEUQM.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 33.15
+      },
+      {
+        "video_id": "HMPshyPD0IQ",
+        "title": "Dallas Willard- Renovaré 4 - Part 3 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-3-What-Is-the-Kingdom-of-God_HMPshyPD0IQ.txt",
+        "subjects": [
+          "teaching",
+          "spiritual_formation",
+          "righteousness",
+          "soul",
+          "kingdom_of_god"
+        ],
+        "duration_minutes": 28.93
+      },
+      {
+        "video_id": "8st43iznIZU",
+        "title": "Dallas Willard- Renovaré 5 - Part 1 - The Sermon on the Mount",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-5-Part-1-The-Sermon-on-the-Mount_8st43iznIZU.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 38.15
+      },
+      {
+        "video_id": "ArBBU4MemYc",
+        "title": "Dallas Willard- Renovaré 5 - Part 2 - The Sermon on the Mount",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-5-Part-2-The-Sermon-on-the-Mount_ArBBU4MemYc.txt",
+        "subjects": [
+          "righteousness",
+          "soul",
+          "teaching",
+          "spiritual_formation"
+        ],
+        "duration_minutes": 45.33
+      },
+      {
+        "video_id": "NYT9fOD7MMI",
+        "title": "Dallas Willard- Renovaré 1 - Part 1 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-1-The-Theology-of-Spiritual-Formation_NYT9fOD7MMI.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 25.49
+      },
+      {
+        "video_id": "0oGAjV96ots",
+        "title": "Dallas Willard- Renovaré 1 - Part 2 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-2-The-Theology-of-Spiritual-Formation_0oGAjV96ots.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 32.49
+      },
+      {
+        "video_id": "Fva-2zC1ocM",
+        "title": "Dallas Willard- Renovaré 1 - Part 3 - The Theology of Spiritual Formation",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-1-Part-3-The-Theology-of-Spiritual-Formation_Fva-2zC1ocM.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 28.04
+      },
+      {
+        "video_id": "-cwaDDesss8",
+        "title": "Dallas Willard- Renovaré 2 - Part 1 - Why Am I Here? - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-1-Why-Am-I-Here-The-Four-Great-Questions-of-Life_-cwaDDesss8.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 30.38
+      },
+      {
+        "video_id": "hDfoxSFKLCQ",
+        "title": "Dallas Willard- Renovaré 2 - Part 2 - Why Am I Here - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-2-Why-Am-I-Here-The-Four-Great-Questions-of-Life_hDfoxSFKLCQ.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 30.68
+      },
+      {
+        "video_id": "nMbbPj3OpJs",
+        "title": "Dallas Willard- Renovaré 2 - Part 3 - Why Am I Here - The Four Great Questions of Life",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-2-Part-3-Why-Am-I-Here-The-Four-Great-Questions-of-Life_nMbbPj3OpJs.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 29.27
+      },
+      {
+        "video_id": "WQd78__7aTU",
+        "title": "Dallas Willard- Renovaré 3 - Part 1 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-1-Steps-Forward-with-Grace_WQd78__7aTU.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 25.39
+      },
+      {
+        "video_id": "yReJc9o_EoU",
+        "title": "Dallas Willard- Renovaré 3 - Part 2 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-2-Steps-Forward-with-Grace_yReJc9o_EoU.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 26.47
+      },
+      {
+        "video_id": "1ooZKJ5-moA",
+        "title": "Dallas Willard- Renovaré 3 - Part 3 - Steps Forward with Grace",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-3-Part-3-Steps-Forward-with-Grace_1ooZKJ5-moA.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 40.85
+      },
+      {
+        "video_id": "oKcvcYU4IL0",
+        "title": "Dallas Willard- Renovaré 4 - Part 1 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-1-What-Is-the-Kingdom-of-God_oKcvcYU4IL0.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "kingdom_of_god",
+          "teaching",
+          "soul"
+        ],
+        "duration_minutes": 33.28
+      },
+      {
+        "video_id": "FnjVIfMEUQM",
+        "title": "Dallas Willard- Renovaré 4 - Part 2 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-2-What-Is-the-Kingdom-of-God_FnjVIfMEUQM.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "kingdom_of_god",
+          "teaching",
+          "soul"
+        ],
+        "duration_minutes": 33.15
+      },
+      {
+        "video_id": "HMPshyPD0IQ",
+        "title": "Dallas Willard- Renovaré 4 - Part 3 - What Is the Kingdom of God?",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-4-Part-3-What-Is-the-Kingdom-of-God_HMPshyPD0IQ.txt",
+        "subjects": [
+          "spiritual_formation",
+          "righteousness",
+          "kingdom_of_god",
+          "teaching",
+          "soul"
+        ],
+        "duration_minutes": 28.93
+      },
+      {
+        "video_id": "8st43iznIZU",
+        "title": "Dallas Willard- Renovaré 5 - Part 1 - The Sermon on the Mount",
+        "filepath": "Renovaré-Institute-Series/Dallas-Willard-Renovaré-5-Part-1-The-Sermon-on-the-Mount_8st43iznIZU.txt",
+        "subjects": [
+          "soul",
+          "teaching",
+          "spiritual_formation",
+          "righteousness"
+        ],
+        "duration_minutes": 38.15
+      }
     ]
   },
   "subjects": {
     "philosophy": [
       "s5nCN7J3zqM",
-      "mDiVDwvXKvA"
+      "mDiVDwvXKvA",
+      "bRQMFgxn4LM",
+      "bRQMFgxn4LM",
+      "1whW7rhOU_A",
+      "TmWBre4ylZA",
+      "WUIIN6G2iAg",
+      "Ptno2-Ceo04",
+      "jLICwWL2VzI",
+      "St4A8plRAqo",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "Zk0KT3EB3Ms",
+      "Q7emm9Py8os",
+      "Gm3Bsj0y3OE",
+      "4htTaAavvUg",
+      "8iIOIaxgars",
+      "RjbITXdyiNI",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "Pko9cMDSaNg",
+      "MdV4rqzvQJM",
+      "7FDuMr7T_5Y",
+      "4YfmfP_OuMs",
+      "9uwQ8I4FwAs",
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ"
     ],
     "teaching": [
       "s5nCN7J3zqM",
@@ -370,7 +2166,118 @@
       "Bb2xPXHEZ6I",
       "ZKGfS6LRL_I",
       "v0Whdt5IiQs",
-      "_iPbNi55-CQ"
+      "_iPbNi55-CQ",
+      "bRQMFgxn4LM",
+      "bRQMFgxn4LM",
+      "1whW7rhOU_A",
+      "TmWBre4ylZA",
+      "WUIIN6G2iAg",
+      "Ptno2-Ceo04",
+      "jLICwWL2VzI",
+      "St4A8plRAqo",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "Zk0KT3EB3Ms",
+      "Q7emm9Py8os",
+      "Gm3Bsj0y3OE",
+      "4htTaAavvUg",
+      "8iIOIaxgars",
+      "RjbITXdyiNI",
+      "QbQCogplGws",
+      "Gryf6S4l4jc",
+      "AWSJMM2M3ww",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "Pko9cMDSaNg",
+      "MdV4rqzvQJM",
+      "7FDuMr7T_5Y",
+      "4YfmfP_OuMs",
+      "9uwQ8I4FwAs",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY",
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ",
+      "4puKOVo5-zI",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ],
     "church": [
       "s5nCN7J3zqM",
@@ -389,6 +2296,67 @@
       "Bb2xPXHEZ6I",
       "ZKGfS6LRL_I",
       "v0Whdt5IiQs",
+      "_iPbNi55-CQ",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "Pko9cMDSaNg",
+      "MdV4rqzvQJM",
+      "7FDuMr7T_5Y",
+      "4YfmfP_OuMs",
+      "9uwQ8I4FwAs",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY",
+      "B6kN99yL1qg",
+      "Z2qFMTbDvxU",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ",
+      "4puKOVo5-zI",
+      "SY0VNqAetMM",
+      "2eDrAWXpPec",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
       "_iPbNi55-CQ"
     ],
     "soul": [
@@ -415,11 +2383,171 @@
       "DGRk7NR28S8",
       "5OLbbceqUu8",
       "kNt0-naTqgk",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "mDiVDwvXKvA",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY",
+      "Z2qFMTbDvxU",
+      "YcFIYaPXMKQ",
+      "wDDozpR-u1s",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg",
+      "Dxj0JoEBHcM",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ],
     "spiritual_formation": [
       "mDiVDwvXKvA",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "mDiVDwvXKvA",
+      "4YfmfP_OuMs",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ],
     "kingdom_of_god": [
       "4ESkUDXjumM",
@@ -444,11 +2572,50 @@
       "DGRk7NR28S8",
       "5OLbbceqUu8",
       "kNt0-naTqgk",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "Pko9cMDSaNg",
+      "4ESkUDXjumM",
+      "TTinLKOAc1E",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "_iPbNi55-CQ",
+      "ZTED62PbvWc",
+      "_iPbNi55-CQ",
+      "_iPbNi55-CQ",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ"
     ],
     "prayer": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY",
+      "B6kN99yL1qg",
+      "Z2qFMTbDvxU",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
     ],
     "righteousness": [
       "xlZ2Fv2BY-k",
@@ -463,7 +2630,57 @@
       "Bb2xPXHEZ6I",
       "ZKGfS6LRL_I",
       "v0Whdt5IiQs",
-      "_iPbNi55-CQ"
+      "_iPbNi55-CQ",
+      "0vqG3xKjaO8",
+      "0vqG3xKjaO8",
+      "w4ln-6HXrQ8",
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ],
     "discipleship": [
       "pXEuMxLzmWQ",
@@ -473,7 +2690,47 @@
       "DGRk7NR28S8",
       "5OLbbceqUu8",
       "kNt0-naTqgk",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
     ],
     "spiritual_disciplines": [
       "pXEuMxLzmWQ",
@@ -483,26 +2740,143 @@
       "DGRk7NR28S8",
       "5OLbbceqUu8",
       "kNt0-naTqgk",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "apologetics": [
+      "bRQMFgxn4LM",
+      "bRQMFgxn4LM",
+      "1whW7rhOU_A",
+      "TmWBre4ylZA",
+      "WUIIN6G2iAg",
+      "Ptno2-Ceo04",
+      "jLICwWL2VzI",
+      "St4A8plRAqo",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "Zk0KT3EB3Ms",
+      "Q7emm9Py8os",
+      "Gm3Bsj0y3OE",
+      "4htTaAavvUg",
+      "8iIOIaxgars",
+      "RjbITXdyiNI",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ"
+    ],
+    "scripture": [
+      "St4A8plRAqo",
+      "pvRdktPxgTE",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "hearing_god": [
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ"
+    ],
+    "will_of_god": [
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ"
     ]
   },
   "scripture_index": {
     "February 21": [
       "s5nCN7J3zqM",
-      "mDiVDwvXKvA"
+      "mDiVDwvXKvA",
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "Pko9cMDSaNg",
+      "MdV4rqzvQJM",
+      "7FDuMr7T_5Y",
+      "4YfmfP_OuMs",
+      "9uwQ8I4FwAs"
     ],
     "PART 1": [
+      "4ESkUDXjumM",
       "4ESkUDXjumM"
     ],
     "in 2011": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E",
       "4ESkUDXjumM",
       "TTinLKOAc1E"
     ],
     "October 11": [
       "4ESkUDXjumM",
+      "TTinLKOAc1E",
+      "4ESkUDXjumM",
       "TTinLKOAc1E"
     ],
     "PART 2": [
+      "TTinLKOAc1E",
       "TTinLKOAc1E"
     ],
     "Part 1": [
@@ -510,37 +2884,92 @@
       "NzkUwo_XHws",
       "5Slbc0UNaQE",
       "70iJ-lLX9rU",
-      "Bb2xPXHEZ6I"
+      "Bb2xPXHEZ6I",
+      "Ptno2-Ceo04",
+      "vEayoalrcFU",
+      "8iIOIaxgars",
+      "QbQCogplGws",
+      "vEayoalrcFU",
+      "kKi4d7j5024",
+      "8iIOIaxgars",
+      "YcFIYaPXMKQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "-cwaDDesss8",
+      "WQd78__7aTU",
+      "oKcvcYU4IL0",
+      "8st43iznIZU",
+      "NYT9fOD7MMI",
+      "-cwaDDesss8",
+      "WQd78__7aTU",
+      "oKcvcYU4IL0",
+      "8st43iznIZU"
     ],
     "a 3": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY"
     ],
     "of 1990": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY"
     ],
     "session 1": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY"
     ],
     "session 2": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY"
     ],
     "session 3": [
       "kKi4d7j5024",
-      "e4ATN5p2srg"
+      "e4ATN5p2srg",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY"
     ],
     "Part 2": [
       "e4ATN5p2srg",
       "-YWDFbQY-ec",
       "lTT21ELgECw",
       "mjlkeEKbiyk",
-      "ZKGfS6LRL_I"
+      "ZKGfS6LRL_I",
+      "jLICwWL2VzI",
+      "8XUbBUYI598",
+      "RjbITXdyiNI",
+      "Gryf6S4l4jc",
+      "8XUbBUYI598",
+      "e4ATN5p2srg",
+      "RjbITXdyiNI",
+      "wDDozpR-u1s",
+      "0oGAjV96ots",
+      "hDfoxSFKLCQ",
+      "yReJc9o_EoU",
+      "FnjVIfMEUQM",
+      "ArBBU4MemYc",
+      "0oGAjV96ots",
+      "hDfoxSFKLCQ",
+      "yReJc9o_EoU",
+      "FnjVIfMEUQM"
     ],
     "Session 1": [
-      "xlZ2Fv2BY-k"
+      "xlZ2Fv2BY-k",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "in 1999": [
       "xlZ2Fv2BY-k",
@@ -650,27 +3079,57 @@
     "Session 2": [
       "NzkUwo_XHws",
       "-YWDFbQY-ec",
-      "bnQRc9lDqMI"
+      "bnQRc9lDqMI",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "Part 3": [
       "bnQRc9lDqMI",
-      "Gxj_MpzQO1s"
+      "Gxj_MpzQO1s",
+      "AWSJMM2M3ww",
+      "Xh0JSoKveIY",
+      "Fva-2zC1ocM",
+      "nMbbPj3OpJs",
+      "1ooZKJ5-moA",
+      "HMPshyPD0IQ",
+      "Fva-2zC1ocM",
+      "nMbbPj3OpJs",
+      "1ooZKJ5-moA",
+      "HMPshyPD0IQ"
     ],
     "Session 3": [
       "5Slbc0UNaQE",
-      "lTT21ELgECw"
+      "lTT21ELgECw",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "Session 4": [
       "70iJ-lLX9rU",
       "mjlkeEKbiyk",
-      "Gxj_MpzQO1s"
+      "Gxj_MpzQO1s",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "Session 5": [
       "Bb2xPXHEZ6I",
-      "ZKGfS6LRL_I"
+      "ZKGfS6LRL_I",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "Session 6": [
-      "v0Whdt5IiQs"
+      "v0Whdt5IiQs",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
     ],
     "Conspiracy 1": [
       "pXEuMxLzmWQ"
@@ -725,14 +3184,647 @@
     ],
     "Conspiracy 8": [
       "734SUsQo47Q"
+    ],
+    "part 1": [
+      "TmWBre4ylZA"
+    ],
+    "part 2": [
+      "WUIIN6G2iAg"
+    ],
+    "next 7": [
+      "vEayoalrcFU",
+      "8XUbBUYI598"
+    ],
+    "the 2019": [
+      "vEayoalrcFU",
+      "8XUbBUYI598"
+    ],
+    "May 14": [
+      "vEayoalrcFU",
+      "8XUbBUYI598"
+    ],
+    "s 2010": [
+      "0vqG3xKjaO8",
+      "0vqG3xKjaO8",
+      "w4ln-6HXrQ8"
+    ],
+    "September 20": [
+      "0vqG3xKjaO8",
+      "0vqG3xKjaO8",
+      "w4ln-6HXrQ8"
+    ],
+    "John 14": [
+      "w4ln-6HXrQ8"
+    ],
+    "of 2001": [
+      "B6kN99yL1qg",
+      "Z2qFMTbDvxU"
+    ],
+    "June 7": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "for 3": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Knowledge\n2": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Acquisition\n3": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Goodness\n4": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Knowledge\n5": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Replaced\n6": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "Colloquium 2023": [
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y"
+    ],
+    "January 19": [
+      "YcFIYaPXMKQ",
+      "wDDozpR-u1s"
+    ],
+    "this 6": [
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
+    ],
+    "Each 30": [
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
+    ],
+    "a 10": [
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI"
+    ],
+    "April 2022": [
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "invited 20": [
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "past 20": [
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "for 20": [
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "March 28": [
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg"
+    ],
+    "Celebrates 20": [
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "miOzrLitFyg"
+    ],
+    "Christ 1": [
+      "N0Pn5Q6XFhA"
+    ],
+    "This 8": [
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "_iPbNi55-CQ"
+    ],
+    "June 26": [
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ"
+    ],
+    "Christ 2": [
+      "-QxhFtvWQ2k"
+    ],
+    "Christ 3": [
+      "sHZoEc-umkQ"
+    ],
+    "Christ 4": [
+      "pvRdktPxgTE"
+    ],
+    "Christ 5": [
+      "H2jXGnzICtc"
+    ],
+    "Christ 6": [
+      "-6D8eH4TRhk"
+    ],
+    "Christ 7": [
+      "Dxj0JoEBHcM"
+    ],
+    "Christ 8": [
+      "XiNhP91tkds"
+    ],
+    "1 This 8": [
+      "hc-zREkpxXo"
+    ],
+    "2 This 8": [
+      "9Xf-gwPq8Sk"
+    ],
+    "May 11": [
+      "4puKOVo5-zI"
+    ],
+    "first 3": [
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
+    ],
+    "teach 2": [
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
+    ],
+    "March 15": [
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ"
+    ],
+    "October 2010": [
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
+    ],
+    "s 2": [
+      "p7DXDyfozC0"
+    ],
+    "This 2": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "May 1": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "first 4": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "into 2": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Here\n2": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Right\n3": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Jesus\n4": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Are\n5": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Jesus\n6": [
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
+    ],
+    "Belief 5": [
+      "yJbNEpHCpxA"
+    ],
+    "Belief 6": [
+      "haS7pTvCH2w"
+    ],
+    "March 2011": [
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ]
   },
   "teaching_types": {
     "conference": [
       "s5nCN7J3zqM",
-      "mDiVDwvXKvA"
+      "mDiVDwvXKvA",
+      "s5nCN7J3zqM",
+      "mDiVDwvXKvA",
+      "Pko9cMDSaNg",
+      "MdV4rqzvQJM",
+      "7FDuMr7T_5Y",
+      "4YfmfP_OuMs",
+      "9uwQ8I4FwAs",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "BJiplIsT_mQ",
+      "4ansiOQqcUk",
+      "Qgpd1W6p8G4",
+      "FPrRog4XyDA",
+      "4C0idl8S8p0",
+      "XoITOuYP8Mc",
+      "5SfurBtaSPg",
+      "lRnEo2UexZk",
+      "7wpLjPUruCg",
+      "yJbNEpHCpxA",
+      "haS7pTvCH2w",
+      "_iPbNi55-CQ"
     ],
     "interview": [
+      "4ESkUDXjumM",
+      "TTinLKOAc1E",
       "4ESkUDXjumM",
       "TTinLKOAc1E"
     ],
@@ -759,7 +3851,120 @@
       "DGRk7NR28S8",
       "5OLbbceqUu8",
       "kNt0-naTqgk",
-      "734SUsQo47Q"
+      "734SUsQo47Q",
+      "bRQMFgxn4LM",
+      "bRQMFgxn4LM",
+      "1whW7rhOU_A",
+      "TmWBre4ylZA",
+      "WUIIN6G2iAg",
+      "Ptno2-Ceo04",
+      "jLICwWL2VzI",
+      "St4A8plRAqo",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "Zk0KT3EB3Ms",
+      "Q7emm9Py8os",
+      "Gm3Bsj0y3OE",
+      "4htTaAavvUg",
+      "8iIOIaxgars",
+      "RjbITXdyiNI",
+      "QbQCogplGws",
+      "Gryf6S4l4jc",
+      "AWSJMM2M3ww",
+      "vEayoalrcFU",
+      "8XUbBUYI598",
+      "5J6jAC6XxAI",
+      "kKi4d7j5024",
+      "e4ATN5p2srg",
+      "Xh0JSoKveIY",
+      "B6kN99yL1qg",
+      "Z2qFMTbDvxU",
+      "33L8cl8IZEE",
+      "TCckFTNt-7Y",
+      "gGIvpzoO3c0",
+      "__k2W6ek1Z4",
+      "vd1OO0wXb4Y",
+      "8iIOIaxgars",
+      "RjbITXdyiNI",
+      "FThFNFYY0Sg",
+      "W41VKZ4mbAg",
+      "AZ3l7gcMyjA",
+      "-j-_zcBF8PY",
+      "hH_eyfrcqZU",
+      "NKB95BagxZs",
+      "_6Iv9V6Byew",
+      "aMqesKzk1eQ",
+      "_zmxuTXKUMc",
+      "gd6yQ8KURUk",
+      "DALzNSIUNK0",
+      "miOzrLitFyg",
+      "N0Pn5Q6XFhA",
+      "-QxhFtvWQ2k",
+      "sHZoEc-umkQ",
+      "pvRdktPxgTE",
+      "H2jXGnzICtc",
+      "-6D8eH4TRhk",
+      "Dxj0JoEBHcM",
+      "XiNhP91tkds",
+      "hc-zREkpxXo",
+      "9Xf-gwPq8Sk",
+      "_iPbNi55-CQ",
+      "4puKOVo5-zI"
+    ],
+    "lecture": [
+      "0vqG3xKjaO8",
+      "0vqG3xKjaO8",
+      "w4ln-6HXrQ8"
+    ],
+    "conversation": [
+      "YcFIYaPXMKQ",
+      "wDDozpR-u1s",
+      "HxHWP1YgV6Y",
+      "paeHgTUu894",
+      "_iPbNi55-CQ",
+      "uucUAQDsnbI",
+      "h9BEcpHM2gs",
+      "sorFj5mHJgk",
+      "SY0VNqAetMM",
+      "nx2_wWWcii8",
+      "ZTED62PbvWc",
+      "sAjpA2B5HCo",
+      "n7sxp6ql8ZU",
+      "oGEA0cpEdCc",
+      "2eDrAWXpPec",
+      "KEbs8japGpE",
+      "3pxqNQGFrjA",
+      "amY8_IyLP7U",
+      "p7DXDyfozC0",
+      "_iPbNi55-CQ",
+      "NYT9fOD7MMI",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU",
+      "ArBBU4MemYc",
+      "NYT9fOD7MMI",
+      "0oGAjV96ots",
+      "Fva-2zC1ocM",
+      "-cwaDDesss8",
+      "hDfoxSFKLCQ",
+      "nMbbPj3OpJs",
+      "WQd78__7aTU",
+      "yReJc9o_EoU",
+      "1ooZKJ5-moA",
+      "oKcvcYU4IL0",
+      "FnjVIfMEUQM",
+      "HMPshyPD0IQ",
+      "8st43iznIZU"
     ]
   }
 }

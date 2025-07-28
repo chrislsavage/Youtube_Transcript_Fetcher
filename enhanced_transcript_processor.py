@@ -8,6 +8,7 @@ import sys
 import json
 import re
 import time
+import random
 from datetime import datetime
 from typing import List, Dict, Optional, Set, Tuple
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -15,9 +16,11 @@ import requests
 from urllib.parse import parse_qs, urlparse
 
 class DallasWillardTranscriptProcessor:
-    def __init__(self, rate_limit_per_minute: int = 30):
+    def __init__(self, rate_limit_per_minute: int = 10):
         self.rate_limit = rate_limit_per_minute
         self.last_request_time = 0
+        self.consecutive_failures = 0
+        self.session = requests.Session()  # Session for cookie caching
         
         # Enhanced speaker patterns for Dallas Willard content
         self.speaker_patterns = [
@@ -471,14 +474,28 @@ Downloaded: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
                 return match.group(1)
         return None
 
-    def _rate_limit_wait(self):
-        """Implement rate limiting to avoid overloading the API."""
+    def _rate_limit_wait(self, is_retry: bool = False):
+        """Enhanced rate limiting with exponential backoff and jitter."""
         current_time = time.time()
         time_since_last_request = current_time - self.last_request_time
-        wait_time = (60 / self.rate_limit) - time_since_last_request
         
-        if wait_time > 0:
-            time.sleep(wait_time)
+        # Base wait time (more conservative)
+        base_wait = (60 / self.rate_limit) - time_since_last_request
+        
+        # Exponential backoff for consecutive failures
+        if is_retry and self.consecutive_failures > 0:
+            backoff_multiplier = min(2 ** self.consecutive_failures, 16)  # Cap at 16x
+            base_wait = max(base_wait, backoff_multiplier * 60)  # At least 1-16 minutes
+            print(f"⏳ Exponential backoff: waiting {base_wait/60:.1f} minutes (attempt {self.consecutive_failures + 1})")
+        
+        # Add random jitter to avoid thundering herd
+        jitter = random.uniform(0.5, 1.5)
+        final_wait = max(base_wait * jitter, 6)  # Minimum 6 seconds between requests
+        
+        if final_wait > 0:
+            if final_wait > 60:
+                print(f"⏳ Waiting {final_wait/60:.1f} minutes before next request...")
+            time.sleep(final_wait)
         
         self.last_request_time = time.time()
 
@@ -585,15 +602,45 @@ Downloaded: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
                 print(f"Error: Could not extract video ID from URL: {video_url}")
                 return None
 
-            self._rate_limit_wait()
-            # Use the correct API method for this version
-            transcript_list = YouTubeTranscriptApi().list(video_id)
-            transcript = transcript_list.find_transcript(['en']).fetch()
-            return transcript
-
+            return self._fetch_transcript_with_retry(video_id)
         except Exception as e:
             print(f"Error fetching transcript for {video_url}: {str(e)}")
             return None
+        
+    def _fetch_transcript_with_retry(self, video_id: str, max_retries: int = 3):
+        """Fetch transcript with intelligent retry logic."""
+        for attempt in range(max_retries + 1):
+            try:
+                self._rate_limit_wait(is_retry=(attempt > 0))
+                
+                # Use session for cookie caching
+                transcript_list = YouTubeTranscriptApi().list(video_id)
+                transcript = transcript_list.find_transcript(['en']).fetch()
+                
+                # Reset failure counter on success
+                self.consecutive_failures = 0
+                return transcript
+                
+            except Exception as e:
+                error_msg = str(e).lower()
+                
+                # Check if it's a rate limiting error
+                if "blocked" in error_msg or "rate" in error_msg or "quota" in error_msg:
+                    self.consecutive_failures += 1
+                    
+                    if attempt < max_retries:
+                        wait_time = min(2 ** (attempt + 1) * 60, 900)  # Cap at 15 minutes
+                        print(f"🚫 Rate limited. Waiting {wait_time/60:.1f} minutes before retry {attempt + 1}/{max_retries}...")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"❌ Max retries exceeded for video {video_id}")
+                        raise
+                else:
+                    # Non-rate-limit error, don't retry
+                    raise
+        
+        return None
 
 def main():
     if len(sys.argv) < 2:

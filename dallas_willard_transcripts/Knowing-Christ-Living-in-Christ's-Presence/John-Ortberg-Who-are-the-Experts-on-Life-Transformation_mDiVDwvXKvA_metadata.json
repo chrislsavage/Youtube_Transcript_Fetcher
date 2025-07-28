@@ -20,10 +20,10 @@
       "20"
     ],
     "subjects": [
+      "spiritual_formation",
+      "church",
       "philosophy",
       "soul",
-      "church",
-      "spiritual_formation",
       "teaching"
     ],
     "scripture_references": [
@@ -38,18 +38,18 @@
       "says Romans 14"
     ],
     "subjects_in_content": [
-      "philosophy",
-      "spiritual_disciplines",
-      "soul",
-      "prayer",
-      "will_of_god",
+      "kingdom_of_god",
+      "discipleship",
+      "spiritual_formation",
       "church",
       "apologetics",
+      "will_of_god",
+      "philosophy",
       "righteousness",
-      "spiritual_formation",
-      "kingdom_of_god",
+      "prayer",
+      "spiritual_disciplines",
       "scripture",
-      "discipleship",
+      "soul",
       "teaching"
     ],
     "scripture_in_content": [
@@ -112,8 +112,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 2,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "spiritual_formation",
           "teaching"
         ],
@@ -169,10 +169,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 5,
         "subjects": [
+          "kingdom_of_god",
+          "spiritual_formation",
           "philosophy",
           "soul",
-          "spiritual_formation",
-          "kingdom_of_god",
           "teaching"
         ],
         "scripture_refs": []
@@ -189,8 +189,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 6,
         "subjects": [
-          "philosophy",
           "teaching",
+          "philosophy",
           "church"
         ],
         "scripture_refs": []
@@ -223,8 +223,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 8,
         "subjects": [
-          "church",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "church"
         ],
         "scripture_refs": []
       }
@@ -241,8 +241,8 @@
         "chunk_number": 9,
         "subjects": [
           "soul",
-          "spiritual_formation",
-          "teaching"
+          "teaching",
+          "spiritual_formation"
         ],
         "scripture_refs": []
       }
@@ -272,8 +272,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 11,
         "subjects": [
-          "discipleship",
-          "teaching"
+          "teaching",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -289,8 +289,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 12,
         "subjects": [
-          "teaching",
-          "scripture"
+          "scripture",
+          "teaching"
         ],
         "scripture_refs": [
           "Psalm 1"
@@ -397,8 +397,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 19,
         "subjects": [
-          "church",
-          "scripture"
+          "scripture",
+          "church"
         ],
         "scripture_refs": []
       }
@@ -447,11 +447,11 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 22,
         "subjects": [
+          "spiritual_formation",
+          "church",
+          "apologetics",
           "philosophy",
           "soul",
-          "church",
-          "spiritual_formation",
-          "apologetics",
           "teaching"
         ],
         "scripture_refs": []
@@ -530,10 +530,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 27,
         "subjects": [
-          "philosophy",
-          "church",
           "spiritual_formation",
+          "church",
           "apologetics",
+          "philosophy",
           "teaching"
         ],
         "scripture_refs": []
@@ -566,8 +566,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 29,
         "subjects": [
-          "righteousness",
-          "soul"
+          "soul",
+          "righteousness"
         ],
         "scripture_refs": []
       }
@@ -600,8 +600,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 31,
         "subjects": [
-          "church",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "church"
         ],
         "scripture_refs": [
           "Mark 1"
@@ -619,8 +619,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 32,
         "subjects": [
-          "discipleship",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "discipleship"
         ],
         "scripture_refs": [
           "his 12",
@@ -642,9 +642,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 33,
         "subjects": [
-          "discipleship",
+          "kingdom_of_god",
           "teaching",
-          "kingdom_of_god"
+          "discipleship"
         ],
         "scripture_refs": [
           "for 40"
@@ -720,8 +720,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 38,
         "subjects": [
-          "discipleship",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -737,9 +737,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 39,
         "subjects": [
-          "will_of_god",
+          "apologetics",
           "kingdom_of_god",
-          "apologetics"
+          "will_of_god"
         ],
         "scripture_refs": []
       }
@@ -773,8 +773,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 41,
         "subjects": [
-          "teaching",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "teaching"
         ],
         "scripture_refs": [
           "a 2"
@@ -792,8 +792,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 42,
         "subjects": [
-          "teaching",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "teaching"
         ],
         "scripture_refs": []
       }
@@ -809,9 +809,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 43,
         "subjects": [
-          "church",
+          "kingdom_of_god",
           "soul",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -827,9 +827,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 44,
         "subjects": [
+          "kingdom_of_god",
           "teaching",
-          "spiritual_formation",
-          "kingdom_of_god"
+          "spiritual_formation"
         ],
         "scripture_refs": []
       }
@@ -845,10 +845,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 45,
         "subjects": [
-          "church",
+          "kingdom_of_god",
           "soul",
           "spiritual_formation",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -864,8 +864,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 46,
         "subjects": [
-          "philosophy",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "philosophy"
         ],
         "scripture_refs": []
       }
@@ -897,10 +897,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 48,
         "subjects": [
+          "kingdom_of_god",
           "righteousness",
-          "church",
           "prayer",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": [
           "Romans 14"
@@ -918,8 +918,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 49,
         "subjects": [
-          "spiritual_disciplines",
-          "prayer"
+          "prayer",
+          "spiritual_disciplines"
         ],
         "scripture_refs": []
       }
@@ -935,8 +935,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 50,
         "subjects": [
-          "prayer",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "prayer"
         ],
         "scripture_refs": []
       }
@@ -952,11 +952,11 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 51,
         "subjects": [
-          "soul",
-          "prayer",
-          "church",
+          "kingdom_of_god",
           "spiritual_formation",
-          "kingdom_of_god"
+          "church",
+          "prayer",
+          "soul"
         ],
         "scripture_refs": []
       }
@@ -1004,9 +1004,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 54,
         "subjects": [
+          "scripture",
           "philosophy",
-          "church",
-          "scripture"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -1060,8 +1060,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 57,
         "subjects": [
-          "spiritual_formation",
-          "teaching"
+          "teaching",
+          "spiritual_formation"
         ],
         "scripture_refs": []
       }
@@ -1108,8 +1108,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 60,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "spiritual_formation",
           "teaching"
         ],
@@ -1127,10 +1127,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 61,
         "subjects": [
-          "philosophy",
-          "soul",
           "spiritual_formation",
           "apologetics",
+          "philosophy",
+          "soul",
           "teaching"
         ],
         "scripture_refs": []
@@ -1194,9 +1194,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 65,
         "subjects": [
-          "discipleship",
           "teaching",
           "spiritual_formation",
+          "discipleship",
           "church"
         ],
         "scripture_refs": []
@@ -1227,8 +1227,8 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 67,
         "subjects": [
-          "discipleship",
           "soul",
+          "discipleship",
           "church"
         ],
         "scripture_refs": []
@@ -1245,9 +1245,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 68,
         "subjects": [
-          "discipleship",
           "soul",
-          "teaching"
+          "teaching",
+          "discipleship"
         ],
         "scripture_refs": [
           "life 24"
@@ -1265,9 +1265,9 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 69,
         "subjects": [
-          "discipleship",
           "soul",
           "spiritual_formation",
+          "discipleship",
           "church"
         ],
         "scripture_refs": [
@@ -1288,10 +1288,10 @@
         "series": "Knowing Christ: Living in Christ's Presence",
         "chunk_number": 70,
         "subjects": [
+          "scripture",
           "soul",
           "spiritual_formation",
-          "church",
-          "scripture"
+          "church"
         ],
         "scripture_refs": [
           "why 1",

@@ -11,7 +11,7 @@ from datetime import datetime
 from enhanced_transcript_processor import DallasWillardTranscriptProcessor
 
 class BatchTranscriptProcessor:
-    def __init__(self, batch_size: int = 5, rate_limit: int = 20):
+    def __init__(self, batch_size: int = 3, rate_limit: int = 8):
         self.processor = DallasWillardTranscriptProcessor(rate_limit_per_minute=rate_limit)
         self.batch_size = batch_size
         self.progress_file = "processing_progress.json"

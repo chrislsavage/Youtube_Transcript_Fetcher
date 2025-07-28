@@ -1,0 +1,649 @@
+⏯️  RESUME MODE: Continuing previous processing
+Processing all 28 playlists
+Skipping already completed: Knowing Christ: Living in Christ's Presence
+Skipping already completed: Divine Conspiracy Interviews
+Skipping already completed: The Soul Series
+
+============================================================
+Processing: Holy Living
+============================================================
+Found 2 videos to process
+
+[1/2] Processing: 0vqG3xKjaO8
+Enhanced transcript saved: dallas_willard_transcripts/Holy-Living/Dallas-Willard-Postmodern-Holiness_0vqG3xKjaO8.txt
+✓ Success: Dallas Willard - Postmodern Holiness
+
+[2/2] Processing: w4ln-6HXrQ8
+Enhanced transcript saved: dallas_willard_transcripts/Holy-Living/Dallas-Willard-Holiness,-Divine-Presence-&-Divine-Power-John-14_w4ln-6HXrQ8.txt
+✓ Success: Dallas Willard- Holiness, Divine Presence & Divine Power - John 14
+
+✓ Completed playlist: Holy Living
+  Processed: 2
+  Failed: 0
+
+============================================================
+Processing: Neighborhood Initiative
+============================================================
+Found 2 videos to process
+
+[1/2] Processing: B6kN99yL1qg
+Enhanced transcript saved: dallas_willard_transcripts/Neighborhood-Initiative/Dallas-Willard-Love-Your-Neighbor-Workshop_B6kN99yL1qg.txt
+✓ Success: Dallas Willard - Love Your Neighbor Workshop
+
+[2/2] Processing: Z2qFMTbDvxU
+Enhanced transcript saved: dallas_willard_transcripts/Neighborhood-Initiative/Dallas-Willard-A-Heartfelt-Word-to-Pastors-and-Leaders_Z2qFMTbDvxU.txt
+✓ Success: Dallas Willard - A Heartfelt Word to Pastors and Leaders
+
+✓ Completed playlist: Neighborhood Initiative
+  Processed: 2
+  Failed: 0
+
+============================================================
+Processing: Willard-Hildebrand Colloquium 2023
+============================================================
+Found 5 videos to process
+
+[1/5] Processing: 33L8cl8IZEE
+Enhanced transcript saved: dallas_willard_transcripts/Willard-Hildebrand-Colloquium-2023/James-Beauregard-Corporeality,-the-Body,-and-Moral-Knowledge_33L8cl8IZEE.txt
+✓ Success: James Beauregard - Corporeality, the Body, and Moral Knowledge
+
+[2/5] Processing: TCckFTNt-7Y
+Enhanced transcript saved: dallas_willard_transcripts/Willard-Hildebrand-Colloquium-2023/Steve-Porter-The-Effects-of-the-Disappearance-of-Moral-Knowledge-on-Virtue-Acquisition_TCckFTNt-7Y.txt
+✓ Success: Steve Porter - The Effects of the Disappearance of Moral Knowledge on Virtue Acquisition
+
+[3/5] Processing: gGIvpzoO3c0
+Enhanced transcript saved: dallas_willard_transcripts/Willard-Hildebrand-Colloquium-2023/Walter-Hopp-Drifting-Into-Goodness_gGIvpzoO3c0.txt
+✓ Success: Walter Hopp - Drifting Into Goodness
+
+[4/5] Processing: __k2W6ek1Z4
+Enhanced transcript saved: dallas_willard_transcripts/Willard-Hildebrand-Colloquium-2023/Dan-Sheffler-Mediating-Institutions-and-Hildebrandian-Value-Response___k2W6ek1Z4.txt
+✓ Success: Dan Sheffler - Mediating Institutions and Hildebrandian Value Response
+
+[5/5] Processing: vd1OO0wXb4Y
+Enhanced transcript saved: dallas_willard_transcripts/Paul-Nedelisky-The-Engines-of-the-Zeitgeist/Paul-Nedelisky-The-Engines-of-the-Zeitgeist-How-the-Old-Moral-Knowledge-Has-Been-Replaced_vd1OO0wXb4Y.txt
+✓ Success: Paul Nedelisky - The Engines of the Zeitgeist: How the Old Moral Knowledge Has Been Replaced
+
+Progress: 5/5 videos
+Success rate: 5/5 (100.0%)
+
+✓ Completed playlist: Willard-Hildebrand Colloquium 2023
+  Processed: 5
+  Failed: 0
+
+============================================================
+Processing: The Meaning of Meaning
+============================================================
+Found 2 videos to process
+
+[1/2] Processing: 8iIOIaxgars
+Enhanced transcript saved: dallas_willard_transcripts/The-Meaning-of-Meaning/Dallas-Willard-The-Meaning-of-Meaning-Part-1_8iIOIaxgars.txt
+✓ Success: Dallas Willard - The Meaning of Meaning - Part 1
+
+[2/2] Processing: RjbITXdyiNI
+Enhanced transcript saved: dallas_willard_transcripts/The-Meaning-of-Meaning/Dallas-Willard-The-Meaning-of-Meaning-Part-2_RjbITXdyiNI.txt
+✓ Success: Dallas Willard - The Meaning of Meaning - Part 2
+
+✓ Completed playlist: The Meaning of Meaning
+  Processed: 2
+  Failed: 0
+
+============================================================
+Processing: Pastor to Pastor Conversations
+============================================================
+Found 2 videos to process
+
+[1/2] Processing: YcFIYaPXMKQ
+Enhanced transcript saved: dallas_willard_transcripts/Dallas-Willard-Pastor-to-Pastor/Dallas-Willard-Pastor-to-Pastor-The-Spiritually-Vital-Leader-Part-1_YcFIYaPXMKQ.txt
+✓ Success: Dallas Willard - Pastor to Pastor: The Spiritually Vital Leader Part 1
+
+[2/2] Processing: wDDozpR-u1s
+Enhanced transcript saved: dallas_willard_transcripts/Dallas-Willard-Pastor-to-Pastor/Dallas-Willard-Pastor-to-Pastor-The-Spiritually-Vital-Leader-Part-2_wDDozpR-u1s.txt
+✓ Success: Dallas Willard - Pastor to Pastor: The Spiritually Vital Leader Part 2
+
+✓ Completed playlist: Pastor to Pastor Conversations
+  Processed: 2
+  Failed: 0
+
+============================================================
+Processing: Small Group Study: Hearing God
+============================================================
+Found 8 videos to process
+
+[1/8] Processing: GKnt0zbVoa8
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 2.0 minutes (attempt 2)
+⏳ Waiting 1.3 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 4.0 minutes (attempt 3)
+⏳ Waiting 3.3 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 8.0 minutes (attempt 4)
+⏳ Waiting 4.4 minutes before next request...
+❌ Max retries exceeded for video GKnt0zbVoa8
+Error fetching transcript for https://www.youtube.com/watch?v=GKnt0zbVoa8: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=GKnt0zbVoa8! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[2/8] Processing: CV2z4Q7P3u8
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 6)
+⏳ Waiting 20.4 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 7)
+⏳ Waiting 23.3 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 8)
+⏳ Waiting 19.2 minutes before next request...
+❌ Max retries exceeded for video CV2z4Q7P3u8
+Error fetching transcript for https://www.youtube.com/watch?v=CV2z4Q7P3u8: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=CV2z4Q7P3u8! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[3/8] Processing: aSzpaaLy7O8
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 10)
+⏳ Waiting 11.1 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 11)
+⏳ Waiting 21.0 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 12)
+⏳ Waiting 11.6 minutes before next request...
+❌ Max retries exceeded for video aSzpaaLy7O8
+Error fetching transcript for https://www.youtube.com/watch?v=aSzpaaLy7O8: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=aSzpaaLy7O8! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[4/8] Processing: 1l8FeROJEWE
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 14)
+⏳ Waiting 16.0 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 15)
+⏳ Waiting 23.6 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 16)
+⏳ Waiting 15.2 minutes before next request...
+❌ Max retries exceeded for video 1l8FeROJEWE
+Error fetching transcript for https://www.youtube.com/watch?v=1l8FeROJEWE: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1l8FeROJEWE! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[5/8] Processing: HxHWP1YgV6Y
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 18)
+⏳ Waiting 21.7 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 19)
+⏳ Waiting 19.0 minutes before next request...
+Enhanced transcript saved: dallas_willard_transcripts/Dallas-Willard-Small-Group-Curriculum/Dallas-Willard-Small-Group-Curriculum-Session-5_HxHWP1YgV6Y.txt
+✓ Success: Dallas Willard - Small Group Curriculum: Session 5
+
+Progress: 5/8 videos
+Success rate: 1/5 (20.0%)
+
+[6/8] Processing: paeHgTUu894
+Enhanced transcript saved: dallas_willard_transcripts/Dallas-Willard-Small-Group-Curriculum/Dallas-Willard-Small-Group-Curriculum-Session-6_paeHgTUu894.txt
+✓ Success: Dallas Willard - Small Group Curriculum: Session 6
+
+[7/8] Processing: _iPbNi55-CQ
+Enhanced transcript saved: dallas_willard_transcripts/Small-Group-Study-Hearing-God/School-of-Kingdom-Living__iPbNi55-CQ.txt
+✓ Success: School of Kingdom Living
+
+[8/8] Processing: uucUAQDsnbI
+Enhanced transcript saved: dallas_willard_transcripts/Hearing-God-by-Dallas-Willard/Hearing-God-by-Dallas-Willard-A-DVD-Companion_uucUAQDsnbI.txt
+✓ Success: Hearing God by Dallas Willard: A DVD Companion
+
+✓ Completed playlist: Small Group Study: Hearing God
+  Processed: 4
+  Failed: 4
+
+============================================================
+Processing: Celebrating the 20th Anniversary of Renovation of the Heart
+============================================================
+Found 20 videos to process
+
+[1/20] Processing: FThFNFYY0Sg
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Tyler-Staton-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_FThFNFYY0Sg.txt
+✓ Success: Tyler Staton Reflects on the 20th Anniversary of Renovation of the Heart
+
+[2/20] Processing: W41VKZ4mbAg
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Juni-Felix-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_W41VKZ4mbAg.txt
+✓ Success: Juni Felix Reflects on the 20th Anniversary of Renovation of the Heart
+
+[3/20] Processing: AZ3l7gcMyjA
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Randy-Frazee-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_AZ3l7gcMyjA.txt
+✓ Success: Randy Frazee Reflects on the 20th Anniversary of Renovation of the Heart
+
+[4/20] Processing: -j-_zcBF8PY
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Amy-Boucher-Pye-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_-j-_zcBF8PY.txt
+✓ Success: Amy Boucher Pye Reflects on the 20th Anniversary of Renovation of the Heart
+
+[5/20] Processing: hH_eyfrcqZU
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/James-Bryan-Smith-Celebrates-20-Years-of-Renovation-of-the-Heart_hH_eyfrcqZU.txt
+✓ Success: James Bryan Smith Celebrates 20 Years of Renovation of the Heart
+
+Progress: 5/20 videos
+Success rate: 5/5 (100.0%)
+
+[6/20] Processing: NKB95BagxZs
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Gary-Moon-Celebrates-20-Years-of-Renovation-of-the-Heart_NKB95BagxZs.txt
+✓ Success: Gary Moon Celebrates 20 Years of Renovation of the Heart
+
+[7/20] Processing: _6Iv9V6Byew
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Siang-Yang-Tan-Celebrates-20-Years-of-Renovation-of-the-Heart__6Iv9V6Byew.txt
+✓ Success: Siang Yang Tan Celebrates 20 Years of Renovation of the Heart
+
+[8/20] Processing: aMqesKzk1eQ
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/John-Ortberg-Celebrates-20-Years-of-Renovation-of-the-Heart_aMqesKzk1eQ.txt
+✓ Success: John Ortberg Celebrates 20 Years of Renovation of the Heart
+
+[9/20] Processing: _zmxuTXKUMc
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Richard-Foster-Celebrates-20-Years-of-Renovation-of-the-Heart__zmxuTXKUMc.txt
+✓ Success: Richard Foster Celebrates 20 Years of Renovation of the Heart
+
+[10/20] Processing: gd6yQ8KURUk
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Jan-Johnson-Celebrates-20-Years-of-Renovation-of-the-Heart_gd6yQ8KURUk.txt
+✓ Success: Jan Johnson Celebrates 20 Years of Renovation of the Heart
+
+Progress: 10/20 videos
+Success rate: 10/10 (100.0%)
+
+[11/20] Processing: LkMqtDBA45A
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 2.0 minutes (attempt 2)
+⏳ Waiting 3.0 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 4.0 minutes (attempt 3)
+⏳ Waiting 2.4 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 8.0 minutes (attempt 4)
+⏳ Waiting 8.4 minutes before next request...
+❌ Max retries exceeded for video LkMqtDBA45A
+Error fetching transcript for https://www.youtube.com/watch?v=LkMqtDBA45A: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LkMqtDBA45A! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[12/20] Processing: w2KwsSqyeN4
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 6)
+⏳ Waiting 17.3 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 7)
+⏳ Waiting 21.6 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 8)
+⏳ Waiting 11.0 minutes before next request...
+❌ Max retries exceeded for video w2KwsSqyeN4
+Error fetching transcript for https://www.youtube.com/watch?v=w2KwsSqyeN4: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=w2KwsSqyeN4! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[13/20] Processing: 4AQB9z55qW4
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 10)
+⏳ Waiting 17.8 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 11)
+⏳ Waiting 13.1 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 12)
+⏳ Waiting 20.5 minutes before next request...
+❌ Max retries exceeded for video 4AQB9z55qW4
+Error fetching transcript for https://www.youtube.com/watch?v=4AQB9z55qW4: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4AQB9z55qW4! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[14/20] Processing: aFYmX_ZrqKI
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 14)
+⏳ Waiting 22.9 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 15)
+⏳ Waiting 14.0 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 16)
+⏳ Waiting 16.7 minutes before next request...
+❌ Max retries exceeded for video aFYmX_ZrqKI
+Error fetching transcript for https://www.youtube.com/watch?v=aFYmX_ZrqKI: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=aFYmX_ZrqKI! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[15/20] Processing: Roc41Kb4H0A
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 18)
+⏳ Waiting 13.0 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 19)
+⏳ Waiting 19.8 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 20)
+⏳ Waiting 23.3 minutes before next request...
+❌ Max retries exceeded for video Roc41Kb4H0A
+Error fetching transcript for https://www.youtube.com/watch?v=Roc41Kb4H0A: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Roc41Kb4H0A! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+Progress: 15/20 videos
+Success rate: 10/15 (66.7%)
+
+[16/20] Processing: VXQLGbYZzzI
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 22)
+⏳ Waiting 22.1 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 23)
+⏳ Waiting 9.4 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 24)
+⏳ Waiting 15.3 minutes before next request...
+❌ Max retries exceeded for video VXQLGbYZzzI
+Error fetching transcript for https://www.youtube.com/watch?v=VXQLGbYZzzI: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=VXQLGbYZzzI! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[17/20] Processing: FDtKYt8bbCA
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 26)
+⏳ Waiting 13.5 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 27)
+⏳ Waiting 15.8 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 28)
+⏳ Waiting 11.9 minutes before next request...
+❌ Max retries exceeded for video FDtKYt8bbCA
+Error fetching transcript for https://www.youtube.com/watch?v=FDtKYt8bbCA: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=FDtKYt8bbCA! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[18/20] Processing: DALzNSIUNK0
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Bob-Fryling-Reflects-on-the-20th-Anniversary-of-Renovation-of-the-Heart_DALzNSIUNK0.txt
+✓ Success: Bob Fryling Reflects on the 20th Anniversary of Renovation of the Heart
+
+[19/20] Processing: cLDBXQFBkzY
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 2.0 minutes (attempt 2)
+⏳ Waiting 2.6 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 4.0 minutes (attempt 3)
+⏳ Waiting 3.9 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 8.0 minutes (attempt 4)
+⏳ Waiting 7.0 minutes before next request...
+❌ Max retries exceeded for video cLDBXQFBkzY
+Error fetching transcript for https://www.youtube.com/watch?v=cLDBXQFBkzY: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=cLDBXQFBkzY! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[20/20] Processing: miOzrLitFyg
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 6)
+⏳ Waiting 22.2 minutes before next request...
+Enhanced transcript saved: dallas_willard_transcripts/Celebrating-the-20th-Anniversary-of-Renovation-of-the-Heart/Rebecca-Heatley-Celebrates-20-Years-of-Renovation-of-the-Heart_miOzrLitFyg.txt
+✓ Success: Rebecca Heatley Celebrates 20 Years of Renovation of the Heart
+
+Progress: 20/20 videos
+Success rate: 12/20 (60.0%)
+
+✓ Completed playlist: Celebrating the 20th Anniversary of Renovation of the Heart
+  Processed: 12
+  Failed: 8
+
+============================================================
+Processing: Knowledge of Christ in Today's World
+============================================================
+Found 11 videos to process
+
+[1/11] Processing: N0Pn5Q6XFhA
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-1-How-People-Perish-for-Lack-of-Knowledge._N0Pn5Q6XFhA.txt
+✓ Success: Dallas Willard - Knowledge of Christ 1 - How People Perish for Lack of Knowledge.
+
+[2/11] Processing: -QxhFtvWQ2k
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-2-Knowledge-of-God-Today.-How-It-Is-Possible._-QxhFtvWQ2k.txt
+✓ Success: Dallas Willard - Knowledge of Christ 2 - Knowledge of God Today. How It Is Possible.
+
+[3/11] Processing: sHZoEc-umkQ
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-3-Understanding-the-Opposition-to-Knowledge-of-Christ-Today_sHZoEc-umkQ.txt
+✓ Success: Dallas Willard - Knowledge of Christ 3 - Understanding the Opposition to Knowledge of Christ Today
+
+[4/11] Processing: pvRdktPxgTE
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-4-The-Bible-as-Indispensable-Source-of-Knowledge_pvRdktPxgTE.txt
+✓ Success: Dallas Willard - Knowledge of Christ 4 - The Bible as Indispensable Source of Knowledge
+
+[5/11] Processing: H2jXGnzICtc
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-5-Reason-in-Human-Life-and-Religion.-The-Redemption-of-Reason_H2jXGnzICtc.txt
+✓ Success: Dallas Willard - Knowledge of Christ 5 - Reason in Human Life and Religion. The Redemption of Reason
+
+Progress: 5/11 videos
+Success rate: 5/5 (100.0%)
+
+[6/11] Processing: -6D8eH4TRhk
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-6-Moral-Goodness-and-the-Degradation-of-Morality-by-Desire_-6D8eH4TRhk.txt
+✓ Success: Dallas Willard - Knowledge of Christ 6 - Moral Goodness and the Degradation of Morality by Desire
+
+[7/11] Processing: Dxj0JoEBHcM
+Enhanced transcript saved: dallas_willard_transcripts/Dallas-Willard-Knowledge-of-Christ-7-Life-&-Spiritual-Life/Dallas-Willard-Knowledge-of-Christ-7-Life-&-Spiritual-Life-The-Spiritual-&-Non-Spiritual-Person_Dxj0JoEBHcM.txt
+✓ Success: Dallas Willard - Knowledge of Christ 7 - Life & Spiritual Life: The Spiritual & Non-Spiritual Person
+
+[8/11] Processing: XiNhP91tkds
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-8-The-Mission-of-Christ's-People-on-Earth.-And-Beyond._XiNhP91tkds.txt
+✓ Success: Dallas Willard - Knowledge of Christ 8 - The Mission of Christ's People on Earth.  And Beyond.
+
+[9/11] Processing: hc-zREkpxXo
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-Q&A-#1_hc-zREkpxXo.txt
+✓ Success: Dallas Willard - Knowledge of Christ - Q&A #1
+
+[10/11] Processing: 9Xf-gwPq8Sk
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/Dallas-Willard-Knowledge-of-Christ-Q&A-#2_9Xf-gwPq8Sk.txt
+✓ Success: Dallas Willard - Knowledge of Christ - Q&A #2
+
+Progress: 10/11 videos
+Success rate: 10/10 (100.0%)
+
+[11/11] Processing: _iPbNi55-CQ
+Enhanced transcript saved: dallas_willard_transcripts/Knowledge-of-Christ-in-Today's-World/School-of-Kingdom-Living__iPbNi55-CQ.txt
+✓ Success: School of Kingdom Living
+
+✓ Completed playlist: Knowledge of Christ in Today's World
+  Processed: 11
+  Failed: 0
+
+============================================================
+Processing: From Forgiveness to Blessing
+============================================================
+Found 5 videos to process
+
+[1/5] Processing: 4puKOVo5-zI
+Enhanced transcript saved: dallas_willard_transcripts/From-Forgiveness-to-Blessing/Dallas-Willard-Forgiveness-to-Blessing-1A_4puKOVo5-zI.txt
+✓ Success: Dallas Willard - Forgiveness to Blessing - 1A
+
+[2/5] Processing: NfpWPVfiwVU
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 2.0 minutes (attempt 2)
+⏳ Waiting 2.5 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 4.0 minutes (attempt 3)
+⏳ Waiting 3.9 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 8.0 minutes (attempt 4)
+⏳ Waiting 8.4 minutes before next request...
+❌ Max retries exceeded for video NfpWPVfiwVU
+Error fetching transcript for https://www.youtube.com/watch?v=NfpWPVfiwVU: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=NfpWPVfiwVU! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[3/5] Processing: 2nYdMG258uE
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 6)
+⏳ Waiting 18.0 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 7)
+⏳ Waiting 11.8 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 8)
+⏳ Waiting 16.6 minutes before next request...
+❌ Max retries exceeded for video 2nYdMG258uE
+Error fetching transcript for https://www.youtube.com/watch?v=2nYdMG258uE: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2nYdMG258uE! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[4/5] Processing: 1mo93Ao8I84
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 10)
+⏳ Waiting 19.7 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 11)
+⏳ Waiting 20.8 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 12)
+⏳ Waiting 15.1 minutes before next request...
+❌ Max retries exceeded for video 1mo93Ao8I84
+Error fetching transcript for https://www.youtube.com/watch?v=1mo93Ao8I84: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1mo93Ao8I84! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+✗ Failed: No transcript available
+
+[5/5] Processing: qEePPk6ND9M
+🚫 Rate limited. Waiting 2.0 minutes before retry 1/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 14)
+⏳ Waiting 14.7 minutes before next request...
+🚫 Rate limited. Waiting 4.0 minutes before retry 2/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 15)
+⏳ Waiting 19.2 minutes before next request...
+🚫 Rate limited. Waiting 8.0 minutes before retry 3/3...
+⏳ Exponential backoff: waiting 16.0 minutes (attempt 16)

@@ -34,18 +34,18 @@
     "duration_minutes": 12.07,
     "speakers_identified": [],
     "subjects_in_content": [
-      "philosophy",
-      "spiritual_disciplines",
-      "soul",
-      "prayer",
-      "hearing_god",
+      "kingdom_of_god",
+      "spiritual_formation",
       "church",
       "apologetics",
+      "philosophy",
       "righteousness",
-      "spiritual_formation",
-      "kingdom_of_god",
+      "prayer",
+      "spiritual_disciplines",
       "scripture",
-      "teaching"
+      "soul",
+      "teaching",
+      "hearing_god"
     ],
     "scripture_in_content": [
       "for 40",
@@ -67,8 +67,8 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 1,
         "subjects": [
-          "prayer",
           "kingdom_of_god",
+          "prayer",
           "scripture"
         ],
         "scripture_refs": [
@@ -103,8 +103,8 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 3,
         "subjects": [
-          "righteousness",
-          "soul"
+          "soul",
+          "righteousness"
         ],
         "scripture_refs": [
           "taken 75"
@@ -158,11 +158,11 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 6,
         "subjects": [
-          "philosophy",
-          "soul",
-          "spiritual_formation",
           "kingdom_of_god",
-          "apologetics"
+          "spiritual_formation",
+          "apologetics",
+          "philosophy",
+          "soul"
         ],
         "scripture_refs": []
       }

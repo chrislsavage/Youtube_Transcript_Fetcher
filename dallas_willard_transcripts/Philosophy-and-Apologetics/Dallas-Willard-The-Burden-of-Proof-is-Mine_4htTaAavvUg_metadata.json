@@ -1,0 +1,74 @@
+{
+  "title": "Dallas Willard - The Burden of Proof is Mine",
+  "video_id": "4htTaAavvUg",
+  "url": "https://www.youtube.com/watch?v=4htTaAavvUg",
+  "has_speaker_labels": false,
+  "channel": {
+    "channel_name": "Dallas Willard Ministries",
+    "channel_id": "@dallaswillard",
+    "channel_url": "https://www.youtube.com/@dallaswillard"
+  },
+  "playlist": {
+    "playlist_id": "PLQ7tmLfYg7S_r4OPscbba3mbyJvQ3Fxqi",
+    "playlist_title": "Philosophy and Apologetics",
+    "playlist_description": "Dallas’s knowledge of philosophy and theology, along with his background in psychology and science (his first B.A. was in Psychology and his Ph.D. work included a Minor in the History of Science), were a potent combination that prompted invitations to teach around the world in diverse areas, Christian and “secular,” with a unique perspective and gentle authority. Dallas explained that the intersection between his philosophical and Christian teachings could be found in the simple question: Who are you becoming?"
+  },
+  "teaching_context": {
+    "teaching_type": "sermon",
+    "series_name": "Philosophy and Apologetics",
+    "dates_mentioned": [],
+    "subjects": [
+      "teaching",
+      "philosophy",
+      "apologetics"
+    ],
+    "scripture_references": []
+  },
+  "content_analysis": {
+    "total_words": 165,
+    "duration_minutes": 1.37,
+    "speakers_identified": [],
+    "subjects_in_content": [
+      "philosophy",
+      "discipleship",
+      "spiritual_formation"
+    ],
+    "scripture_in_content": [],
+    "chunk_count": 2
+  },
+  "chunks": [
+    {
+      "chunk_id": "4htTaAavvUg_chunk_001",
+      "content": "[00:00:01] [Music]\n[00:00:16] students the burden of proof is always\n[00:00:19] mine because I'm the one who wants to\n[00:00:21] know I'm not in this discussion to put\n[00:00:25] you back on your heels I'm here to\n[00:00:29] determine the truth and the burden of\n[00:00:32] proof is mine I'm not trying to win an\n[00:00:35] argument I think that's one of the most\n[00:00:38] important things especially for\n[00:00:40] Christians to understand they're not\n[00:00:42] here trying to win they're not here\n[00:00:44] trying to duck and dodge if you can find\n[00:00:49] a better way than what is Jesus Christ\n[00:00:52] offers he would be the first person to\n[00:00:54] tell you to take it and if you don't\n[00:00:57] believe that about him you can't be his\n[00:00:59] disciple because you could never trust\n[00:01:01] him we're not ducking we're not dodging\n[00:01:06] we're just looking for the truth and if\n[00:01:10] Veritas forum means anything it means",
+      "start_timestamp": 0,
+      "end_timestamp": 73.78,
+      "metadata": {
+        "video_id": "4htTaAavvUg",
+        "title": "Dallas Willard - The Burden of Proof is Mine",
+        "series": "Philosophy and Apologetics",
+        "chunk_number": 1,
+        "subjects": [
+          "philosophy",
+          "discipleship"
+        ],
+        "scripture_refs": []
+      }
+    },
+    {
+      "chunk_id": "4htTaAavvUg_chunk_002",
+      "content": "[00:01:13] that for more information about the\n[00:01:16] veritas forum including additional\n[00:01:18] recordings and a calendar of upcoming\n[00:01:19] events please visit our website at\n[00:01:22] Veritas org",
+      "start_timestamp": 73.78,
+      "end_timestamp": 82.45,
+      "metadata": {
+        "video_id": "4htTaAavvUg",
+        "title": "Dallas Willard - The Burden of Proof is Mine",
+        "series": "Philosophy and Apologetics",
+        "chunk_number": 2,
+        "subjects": [
+          "spiritual_formation"
+        ],
+        "scripture_refs": []
+      }
+    }
+  ]
+}

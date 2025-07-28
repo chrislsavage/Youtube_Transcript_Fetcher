@@ -34,16 +34,16 @@
     "duration_minutes": 11.13,
     "speakers_identified": [],
     "subjects_in_content": [
-      "spiritual_disciplines",
-      "soul",
-      "hearing_god",
+      "kingdom_of_god",
+      "discipleship",
+      "spiritual_formation",
       "church",
       "righteousness",
-      "spiritual_formation",
-      "kingdom_of_god",
+      "spiritual_disciplines",
       "scripture",
-      "discipleship",
-      "teaching"
+      "soul",
+      "teaching",
+      "hearing_god"
     ],
     "scripture_in_content": [
       "Genesis 1"
@@ -62,10 +62,10 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 1,
         "subjects": [
-          "hearing_god",
+          "kingdom_of_god",
           "soul",
           "spiritual_formation",
-          "kingdom_of_god"
+          "hearing_god"
         ],
         "scripture_refs": []
       }
@@ -97,9 +97,9 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 3,
         "subjects": [
-          "righteousness",
+          "kingdom_of_god",
           "soul",
-          "kingdom_of_god"
+          "righteousness"
         ],
         "scripture_refs": []
       }
@@ -115,8 +115,8 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 4,
         "subjects": [
-          "teaching",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "teaching"
         ],
         "scripture_refs": []
       }
@@ -167,11 +167,11 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 7,
         "subjects": [
-          "soul",
+          "discipleship",
+          "spiritual_formation",
           "church",
           "righteousness",
-          "spiritual_formation",
-          "discipleship"
+          "soul"
         ],
         "scripture_refs": []
       }
@@ -187,8 +187,8 @@
         "series": "Divine Conspiracy Interviews",
         "chunk_number": 8,
         "subjects": [
-          "spiritual_disciplines",
-          "soul"
+          "soul",
+          "spiritual_disciplines"
         ],
         "scripture_refs": []
       }

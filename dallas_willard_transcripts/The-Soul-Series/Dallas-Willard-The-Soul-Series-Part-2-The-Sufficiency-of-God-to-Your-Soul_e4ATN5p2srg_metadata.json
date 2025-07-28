@@ -21,8 +21,8 @@
     ],
     "subjects": [
       "soul",
-      "prayer",
       "teaching",
+      "prayer",
       "church"
     ],
     "scripture_references": [
@@ -38,20 +38,20 @@
     "total_words": 5964,
     "duration_minutes": 48.78,
     "speakers_identified": [
-      "3",
-      "if any man will come after me Luke 9"
+      "if any man will come after me Luke 9",
+      "3"
     ],
     "subjects_in_content": [
-      "philosophy",
-      "spiritual_disciplines",
-      "soul",
-      "prayer",
-      "will_of_god",
+      "kingdom_of_god",
+      "spiritual_formation",
       "church",
       "apologetics",
-      "spiritual_formation",
-      "kingdom_of_god",
+      "will_of_god",
+      "philosophy",
+      "prayer",
+      "spiritual_disciplines",
       "scripture",
+      "soul",
       "teaching"
     ],
     "scripture_in_content": [
@@ -238,8 +238,8 @@
         "series": "The Soul Series",
         "chunk_number": 10,
         "subjects": [
-          "philosophy",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "philosophy"
         ],
         "scripture_refs": [
           "verse 27",
@@ -372,8 +372,8 @@
         "series": "The Soul Series",
         "chunk_number": 18,
         "subjects": [
-          "soul",
-          "apologetics"
+          "apologetics",
+          "soul"
         ],
         "scripture_refs": []
       }
@@ -517,9 +517,9 @@
         "series": "The Soul Series",
         "chunk_number": 27,
         "subjects": [
-          "philosophy",
+          "scripture",
           "soul",
-          "scripture"
+          "philosophy"
         ],
         "scripture_refs": []
       }
@@ -634,9 +634,9 @@
         "series": "The Soul Series",
         "chunk_number": 34,
         "subjects": [
-          "spiritual_disciplines",
           "soul",
-          "prayer"
+          "prayer",
+          "spiritual_disciplines"
         ],
         "scripture_refs": []
       }
@@ -652,9 +652,9 @@
         "series": "The Soul Series",
         "chunk_number": 35,
         "subjects": [
+          "scripture",
           "soul",
-          "spiritual_formation",
-          "scripture"
+          "spiritual_formation"
         ],
         "scripture_refs": [
           "Psalm 168"
@@ -704,8 +704,8 @@
         "series": "The Soul Series",
         "chunk_number": 38,
         "subjects": [
-          "philosophy",
-          "soul"
+          "soul",
+          "philosophy"
         ],
         "scripture_refs": []
       }
@@ -721,8 +721,8 @@
         "series": "The Soul Series",
         "chunk_number": 39,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "teaching"
         ],
         "scripture_refs": []
@@ -769,8 +769,8 @@
         "series": "The Soul Series",
         "chunk_number": 42,
         "subjects": [
-          "philosophy",
-          "soul"
+          "soul",
+          "philosophy"
         ],
         "scripture_refs": []
       }

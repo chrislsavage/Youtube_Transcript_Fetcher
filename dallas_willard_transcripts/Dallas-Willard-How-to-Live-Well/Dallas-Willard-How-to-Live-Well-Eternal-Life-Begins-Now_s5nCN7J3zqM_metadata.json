@@ -20,8 +20,8 @@
       "20"
     ],
     "subjects": [
-      "philosophy",
       "teaching",
+      "philosophy",
       "church"
     ],
     "scripture_references": [
@@ -37,17 +37,17 @@
       "4"
     ],
     "subjects_in_content": [
-      "philosophy",
-      "spiritual_disciplines",
-      "soul",
-      "will_of_god",
+      "kingdom_of_god",
+      "discipleship",
+      "spiritual_formation",
       "church",
       "apologetics",
+      "will_of_god",
+      "philosophy",
       "righteousness",
-      "spiritual_formation",
-      "kingdom_of_god",
+      "spiritual_disciplines",
       "scripture",
-      "discipleship",
+      "soul",
       "teaching"
     ],
     "scripture_in_content": [
@@ -95,10 +95,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 2,
         "subjects": [
-          "discipleship",
-          "righteousness",
           "soul",
-          "spiritual_formation"
+          "righteousness",
+          "spiritual_formation",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -147,8 +147,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 5,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "teaching"
         ],
         "scripture_refs": []
@@ -165,9 +165,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 6,
         "subjects": [
+          "scripture",
           "philosophy",
-          "teaching",
-          "scripture"
+          "teaching"
         ],
         "scripture_refs": []
       }
@@ -183,9 +183,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 7,
         "subjects": [
-          "philosophy",
-          "soul",
           "will_of_god",
+          "soul",
+          "philosophy",
           "teaching"
         ],
         "scripture_refs": []
@@ -202,10 +202,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 8,
         "subjects": [
-          "philosophy",
           "apologetics",
-          "teaching",
-          "scripture"
+          "scripture",
+          "philosophy",
+          "teaching"
         ],
         "scripture_refs": []
       }
@@ -274,10 +274,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 12,
         "subjects": [
+          "spiritual_formation",
+          "church",
           "philosophy",
           "soul",
-          "church",
-          "spiritual_formation",
           "teaching"
         ],
         "scripture_refs": []
@@ -294,9 +294,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 13,
         "subjects": [
-          "spiritual_disciplines",
           "soul",
-          "spiritual_formation"
+          "spiritual_formation",
+          "spiritual_disciplines"
         ],
         "scripture_refs": []
       }
@@ -312,8 +312,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 14,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "spiritual_formation",
           "teaching"
         ],
@@ -424,9 +424,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 21,
         "subjects": [
+          "kingdom_of_god",
           "discipleship",
-          "church",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -442,9 +442,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 22,
         "subjects": [
-          "discipleship",
           "soul",
-          "philosophy"
+          "philosophy",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -460,9 +460,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 23,
         "subjects": [
-          "discipleship",
           "soul",
-          "spiritual_formation"
+          "spiritual_formation",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -478,8 +478,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 24,
         "subjects": [
-          "discipleship",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -495,10 +495,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 25,
         "subjects": [
-          "discipleship",
+          "apologetics",
           "soul",
-          "church",
-          "apologetics"
+          "discipleship",
+          "church"
         ],
         "scripture_refs": []
       }
@@ -514,8 +514,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 26,
         "subjects": [
-          "discipleship",
           "soul",
+          "discipleship",
           "church"
         ],
         "scripture_refs": [
@@ -534,8 +534,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 27,
         "subjects": [
-          "discipleship",
-          "teaching"
+          "teaching",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -551,9 +551,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 28,
         "subjects": [
-          "discipleship",
           "soul",
           "teaching",
+          "discipleship",
           "church"
         ],
         "scripture_refs": []
@@ -602,10 +602,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 31,
         "subjects": [
+          "kingdom_of_god",
+          "church",
           "philosophy",
           "soul",
-          "church",
-          "kingdom_of_god",
           "teaching"
         ],
         "scripture_refs": [
@@ -624,8 +624,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 32,
         "subjects": [
-          "discipleship",
-          "soul"
+          "soul",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -641,9 +641,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 33,
         "subjects": [
-          "discipleship",
+          "kingdom_of_god",
           "teaching",
-          "kingdom_of_god"
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -659,10 +659,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 34,
         "subjects": [
-          "discipleship",
-          "righteousness",
+          "kingdom_of_god",
           "soul",
-          "kingdom_of_god"
+          "righteousness",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -678,8 +678,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 35,
         "subjects": [
-          "soul",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "soul"
         ],
         "scripture_refs": []
       }
@@ -695,9 +695,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 36,
         "subjects": [
+          "kingdom_of_god",
           "discipleship",
-          "church",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -713,10 +713,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 37,
         "subjects": [
-          "discipleship",
-          "church",
+          "kingdom_of_god",
           "soul",
-          "kingdom_of_god"
+          "discipleship",
+          "church"
         ],
         "scripture_refs": []
       }
@@ -817,8 +817,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 43,
         "subjects": [
-          "philosophy",
           "teaching",
+          "philosophy",
           "church"
         ],
         "scripture_refs": []
@@ -904,8 +904,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 48,
         "subjects": [
-          "philosophy",
-          "kingdom_of_god"
+          "kingdom_of_god",
+          "philosophy"
         ],
         "scripture_refs": []
       }
@@ -958,10 +958,10 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 51,
         "subjects": [
+          "discipleship",
+          "church",
           "philosophy",
           "soul",
-          "church",
-          "discipleship",
           "teaching"
         ],
         "scripture_refs": []
@@ -978,8 +978,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 52,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "church"
         ],
         "scripture_refs": []
@@ -996,8 +996,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 53,
         "subjects": [
-          "philosophy",
           "soul",
+          "philosophy",
           "teaching"
         ],
         "scripture_refs": [
@@ -1082,11 +1082,11 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 58,
         "subjects": [
-          "philosophy",
-          "church",
-          "spiritual_formation",
-          "scripture",
           "discipleship",
+          "spiritual_formation",
+          "church",
+          "philosophy",
+          "scripture",
           "teaching"
         ],
         "scripture_refs": []
@@ -1103,8 +1103,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 59,
         "subjects": [
-          "discipleship",
-          "teaching"
+          "teaching",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -1171,8 +1171,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 63,
         "subjects": [
-          "philosophy",
           "teaching",
+          "philosophy",
           "church"
         ],
         "scripture_refs": []
@@ -1189,8 +1189,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 64,
         "subjects": [
-          "righteousness",
-          "soul"
+          "soul",
+          "righteousness"
         ],
         "scripture_refs": []
       }
@@ -1254,9 +1254,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 68,
         "subjects": [
+          "kingdom_of_god",
           "discipleship",
-          "church",
-          "kingdom_of_god"
+          "church"
         ],
         "scripture_refs": []
       }
@@ -1272,9 +1272,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 69,
         "subjects": [
-          "discipleship",
+          "teaching",
           "spiritual_formation",
-          "teaching"
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -1290,9 +1290,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 70,
         "subjects": [
-          "discipleship",
           "soul",
-          "spiritual_formation"
+          "spiritual_formation",
+          "discipleship"
         ],
         "scripture_refs": []
       }
@@ -1308,8 +1308,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 71,
         "subjects": [
-          "discipleship",
           "righteousness",
+          "discipleship",
           "church"
         ],
         "scripture_refs": [
@@ -1328,8 +1328,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 72,
         "subjects": [
-          "discipleship",
           "teaching",
+          "discipleship",
           "church"
         ],
         "scripture_refs": []
@@ -1392,8 +1392,8 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 76,
         "subjects": [
-          "philosophy",
           "teaching",
+          "philosophy",
           "church"
         ],
         "scripture_refs": [
@@ -1472,9 +1472,9 @@
         "series": "Dallas Willard - How to Live Well",
         "chunk_number": 81,
         "subjects": [
+          "scripture",
           "soul",
-          "teaching",
-          "scripture"
+          "teaching"
         ],
         "scripture_refs": []
       }
